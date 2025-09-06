@@ -1,8 +1,71 @@
-# Executive Summary {.unnumbered}
+---
+title: Welcome
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo gravida justo consectetur condimentum. Proin eget felis non nunc tristique malesuada vel ut tortor. Vivamus lacinia aliquet lorem in congue. In hac habitasse platea dictumst. Etiam non felis iaculis, efficitur libero in, porta nunc. Sed sit amet nisi non justo scelerisque feugiat. Pellentesque porta consectetur sapien, porttitor iaculis ligula fermentum ac. Pellentesque fermentum elementum lacus non tempus. Aenean eu leo lobortis, vulputate mi at, varius sapien. In congue consectetur ultricies. Maecenas volutpat facilisis arcu, eget sodales tellus consequat nec. Integer ullamcorper ex nec leo aliquam tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc dui massa, facilisis at aliquet eu, malesuada vel neque. Donec fermentum elit eu tortor euismod, sed mollis lacus blandit.
+```{r setup, include=FALSE}
+#| file: content/functions.R # must specify because *this* .qmd in different folder
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, error = FALSE, message = FALSE)
+```
 
-New paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo gravida justo consectetur condimentum. Proin eget felis non nunc tristique malesuada vel ut tortor. Vivamus lacinia aliquet lorem in congue. In hac habitasse platea dictumst. Etiam non felis iaculis, efficitur libero in, porta nunc. Sed sit amet nisi non justo scelerisque feugiat. Pellentesque porta consectetur sapien, porttitor iaculis ligula fermentum ac. Pellentesque fermentum elementum lacus non tempus. Aenean eu leo lobortis, vulputate mi at, varius sapien. In congue consectetur ultricies. Maecenas volutpat facilisis arcu, eget sodales tellus consequat nec. Integer ullamcorper ex nec leo aliquam tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc dui massa, facilisis at aliquet eu, malesuada vel neque. Donec fermentum elit eu tortor euismod, sed mollis lacus blandit.
+Principles and applications of fisheries-independent surveys" is a 4-credit course (FISH 572) that delves into the importance of fisheries-independent surveys as a cornerstone for fisheries stock assessment and ecosystem research.
+
+> Last run date: `r format(Sys.Date(), format = "%A, %B %d, %Y")`
+
+> Please consider this resource to be a **Living Document**. The code in this repository is regularly being updated and improved. Please refer to [releases](`r paste0(link_repo, '/releases')`) for finalized products and project milestones.
+
+## Instructors
+
+**Dr. Stan Kotwicki**, Groundfish Assessment Program Manager, Alaska Fisheries Science Center, NOAA. Stan.Kotwicki@noaa.gov
+
+**Dr. Allan Hicks**, Quantitative Scientist, International Pacific Halibut Commission. Allan.Hicks@iphc.int
+
+**Dr. Lewis Barnett**, Research Fish Biologist, Groundfish Assessment Program, Alaska Fisheries Science Center, NOAA. lewis.barnett@noaa.gov
+
+## Class Teaching Assistants
+
+**Dr. Sophia Wassermann**, Research Fish Biologist, Alaska Fisheries Science Center, NOAA. Sophia.Wassermann AT noaa.gov
+
+**Emily Makowitz**, Research Fish Biologist, Alaska Fisheries Science Center, NOAA. Emily.Markowtiz AT noaa.gov
+
+## Lectures
+
+Mon, Wed, 9:00-10:50 am - In person. FSH 203
+
+## Office hours
+
+Email instructors to set up meetings.
+
+## Credits
+
+It is a 4-credit class with numerical grades. It is expected that students will work on assignments about 8 hours per week. Given the limited in-class time, we expect active  participation in all lectures and discussions.  
+
+## Prerequisites
+
+Basic statistics, statistical modeling, background in fisheries/wildlife science; if unclear of eligibility, please correspond with the instructor to obtain permission. 
+
+## Course Summary
+
+The course covers the science and practice of fishery-independent surveys, the primary monitoring approach supporting fisheries management. Fishery-independent surveys form the foundation for stock assessments and ecosystem research, which will be exemplified by case studies from the field. The course covers survey designs for different objectives, types of data collections, and data products from fisheries-independent surveys. It explores the newest developments and challenges in survey science, from observation to spatial and temporal analysis, and introduces career opportunities in the field of scientific surveys. Practical challenges in implementing these principles and managing fisheries-independent surveys will be discussed. You will learn how survey data products inform marine research, stock assessment, ecosystem analysis, and ultimately accumulate into fisheries management advice. 
+
+![Course flyer](./images/FISH572-flyer.png)
+
+This course is designed for students with a background in basic statistics, statistical modeling, and fisheries/wildlife science. It covers a wide range of topics, including:
+
+ - **Survey Design**: Learn about various survey designs for different objectives, types of data collection, and the resulting data products.
+ - **Data Analysis**: Gain practical skills in analyzing fisheries-independent survey data using both design and model-based methods.
+ - **Current Topics**: Explore the latest developments and challenges in survey science, such as uncertainty, survey continuity, effort optimization, flexible survey design, and the use of statistical tools and new technology.
+ - **Real-World Applications**: Understand the logistical challenges in implementing and managing fisheries-independent surveys, and how survey data products are used in fisheries research, assessment, and management advice.
+ - **Career Opportunities**: Discover career paths in the field of research surveys.
+
+The course format includes lectures from instructors and visiting experts, student-led literature reviews and discussions, and hands-on survey data analysis. A significant portion of the grade is based on a final research project using survey data, providing students with valuable experience in research planning and execution. This class is designed to provide useful skills for ongoing research in the field.
+
+## NOAA README
+
+This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.
+
+## NOAA License
+
+Software code created by U.S. Government employees is not subject to copyright in the United States (17 U.S.C. §105). The United States/Department of Commerce reserve all rights to seek and obtain copyright protection in countries other than the United States for Software authored in its entirety by the Department of Commerce. To this end, the Department of Commerce hereby grants to Recipient a royalty-free, nonexclusive license to use, copy, and create derivative works of the Software outside of the United States.
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>

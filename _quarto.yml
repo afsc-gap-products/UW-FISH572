@@ -11,30 +11,48 @@ book:
   downloads: [pdf, docx]
   search: true
   author:
-    - name: Jane Doe
+    - name: Dr. Stan Kotwicki
+      email: Stan.Kotwicki AT noaa.gov 
+      orcid: 0000-0002-6112-5021
+      note: https://github.com/StanKotwicki-NOAA
       affiliations:
-        - name: NOAA Fisheres
-          department: Northwest Fisheries Science Center
-    - name: Eva Nováková
-      institute: test
+        - name: NOAA Fisheres Alaska Fisheries Science Center
+          department: Groundfish Assessment Program
+    - name: Dr. Alan Hicks
+      email: Allan.Hicks AT iphc.int 
+      note: https://github.com/AllanHicks-IPHC
       affiliations:
-        - name: NOAA Fisheries
-          department: West Coast Regional Office
-          institute: test
-    - name: Matti Meikäläinen
+        - name: International Pacific Halibut Commission
+    - name: Dr. Lewis Barnett
+      email: Lewis.Barnett AT noaa.gov 
+      note: https://github.com/Lewis-Barnett-NOAA
       affiliations:
-        - name: NOAA Fisheries
-          department: Southwest Fisheries Science Center
+        - name: NOAA Fisheres Alaska Fisheries Science Center
+          department: Groundfish Assessment Program
+    - name: Dr. Sophia Wassermann
+      email: Sophia.Wassermann AT noaa.gov 
+      orcid: 0000-0002-4323-5227
+      note: https://github.com/sowasser
+      affiliations:
+        - name: NOAA Fisheres Alaska Fisheries Science Center
+          department: Groundfish Assessment Program
+    - name: Emily Markowitz
+      email: Emily.Markowitz AT noaa.gov 
+      orcid: 0000-0001-5757-4230
+      note: https://github.com/EmilyMarkowitz-NOAA
+      affiliations:
+        - name: NOAA Fisheres Alaska Fisheries Science Center
+          department: Groundfish Assessment Program
   chapters:
+    - content/course-info.qmd
     - index.qmd
-    - content/setup.qmd
-    - content/add-content.qmd
-    - content/customizing.qmd
-    - content/rendering.qmd
-    - content/figures_and_tables.qmd
-    - content/code.qmd
-    - content/adding-refs.qmd
-    - content/references.qmd
+    - content/faq.qmd
+    - content/resources.qmd
+    # - content/rendering.qmd
+    # - content/figures_and_tables.qmd
+    # - content/code.qmd
+    # - content/adding-refs.qmd
+    # - content/references.qmd
 
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
