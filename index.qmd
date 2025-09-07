@@ -3,8 +3,9 @@ title: Welcome
 ---
 
 ```{r setup, include=FALSE}
-#| file: content/functions.R # must specify because *this* .qmd in different folder
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, error = FALSE, message = FALSE)
+
+link_repo <- "https://github.com/afsc-gap-products/UW-FISH572"
 ```
 
 Principles and applications of fisheries-independent surveys" is a 4-credit course (FISH 572) that delves into the importance of fisheries-independent surveys as a cornerstone for fisheries stock assessment and ecosystem research.

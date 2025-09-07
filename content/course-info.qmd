@@ -86,7 +86,6 @@ flextable::flextable(grading) |>
 
 ```{r, echo = FALSE, include = FALSE, eval = FALSE}
 library(googledrive)
-library(magrittr)
 library(flextable)
 googledrive::drive_auth()
 2
@@ -95,7 +94,7 @@ googledrive::drive_download(
   file = googledrive::as_id("16KLWBkiKi2NIOV6ffre9pY-0oI9wpRoShuQUFIP-G4w"), 
   type = "csv",
   overwrite = TRUE,
-  path = here::here("content", "syllabus.csv"))
+  path = ("syllabus.csv"))
 ```
 
 ```{r prod-table}
@@ -114,7 +113,7 @@ color_by_category <- function(category_values) {
   return(colors)
 }
 
-read.csv(file = here::here("content", "syllabus.csv")) |> 
+read.csv(file = "syllabus.csv") |> 
   flextable::flextable() |>
   flextable::merge_v("Week") |> 
   flextable::merge_h(, part = "body") |> 
