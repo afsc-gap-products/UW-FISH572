@@ -144,7 +144,7 @@
     "href": "content/course-info.html#grading-scale",
     "title": "1  Course Information",
     "section": "1.5 Grading Scale",
-    "text": "1.5 Grading Scale\nLearn more about the UW grading scale.\n\n\nThe following package(s) will be installed:\n- flextable [0.9.10]\nThese packages will be installed into \"~/work/UW-FISH572/UW-FISH572/renv/library/linux-ubuntu-noble/R-4.5/x86_64-pc-linux-gnu\".\n\n# Installing packages --------------------------------------------------------\n- Installing flextable ...                      OK [linked from cache]\nSuccessfully installed 1 package in 4.7 milliseconds.\n\n\nPercentGPALetter≥954A943.9933.8A-923.7913.6903.5893.4B+883.3873.2863.1853B842.9832.8B-822.7B-812.6802.5792.4C+782.3772.2762.1752C741.9731.8721.7&lt;721.6- 0.0E",
+    "text": "1.5 Grading Scale\nLearn more about the UW grading scale.\n\n\nThe following package(s) will be installed:\n- flextable [0.9.10]\nThese packages will be installed into \"~/work/UW-FISH572/UW-FISH572/renv/library/linux-ubuntu-noble/R-4.5/x86_64-pc-linux-gnu\".\n\n# Installing packages --------------------------------------------------------\n- Installing flextable ...                      OK [linked from cache]\nSuccessfully installed 1 package in 4.8 milliseconds.\n\n\nPercentGPALetter≥954A943.9933.8A-923.7913.6903.5893.4B+883.3873.2863.1853B842.9832.8B-822.7B-812.6802.5792.4C+782.3772.2762.1752C741.9731.8721.7&lt;721.6- 0.0E",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Course Information</span>"
     ]
