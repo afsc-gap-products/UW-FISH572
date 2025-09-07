@@ -44,8 +44,8 @@ book:
         - name: NOAA Fisheres Alaska Fisheries Science Center
           department: Groundfish Assessment Program
   chapters:
-    - content/course-info.qmd
     - index.qmd
+    - content/course-info.qmd
     - content/faq.qmd
     - content/resources.qmd
     - content/references.qmd

@@ -2,6 +2,14 @@
 title: Course Information
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, include = FALSE, warning = FALSE, error = FALSE, message = FALSE)
+
+install.packages("flextable")
+library(flextable)
+flextable::set_flextable_defaults(font.family = "Arial")
+```
+
 ## Specific Learning Goals
 
 This class is intended to provide useful skills for your ongoing research.
@@ -32,6 +40,7 @@ No required text. Course materials will be selected from journals, books, and ot
 Students will be graded on 4 tasks:
 
 **1. Project plan - 1 page and 5 min presentation (10% weight)**
+
 *DUE: Presentation January 14*
 
 Within the first days of the quarter students will be responsible for planning a research project. Students can propose a project of their choice as long as the data for the project is of survey origin. Project plans should be discussed with and accepted by instructors. Once accepted students will be responsible for writing a 1 page project plan and for presentation of the plan during the class. Instructors and students will provide feedback on the plan during the class discussion. 
@@ -43,11 +52,13 @@ Within the first days of the quarter students will be responsible for planning a
 Students will be responsible for presentations on relevant literature and leading subsequent discussion. Literature review presentations will be conducted on Feb 9 or later depending on the number of presentations. Papers for this literature review should be relevant to the final  project. Students are advised to discuss potential papes for this review with instructors, but students will be given the opportunity to propose a paper(s) of their choice for presentations. Literature review presentation will be followed by Q & A session and in-class discussion on the presented topics
 
 **3. Survey data analysis (20%)**
+
 *DUE: 16 February*
 
 Survey data analysis will involve estimation of standard design-based and model-based survey data products (from provided “true distributions”) or could involve custom analysis of survey data used for class projects. Format of the analysis presentation will be open and can include analysis description and graphs or tables. Analysis will be graded separately, but can be included as part of the final paper or as an independent document. Data analysis will be due at the end of week 6 of the course.  
 
 **4. Final project - up to 5-8 pages and 20-30 min presentation (50%)**
+
 *Due: Presentation March 4-11; Paper March 13*
 
 Final project results will be presented in the form of 20-30 minutes in-class PPT presentation. Students will receive feedback from instructors and time for in-class discussion will be provided. Presentations will occur during the last 2 weeks of the course. Final 5 - 8 page paper will be due at the end of week 10 and graded during the week of finals.
@@ -56,7 +67,7 @@ Final project results will be presented in the form of 20-30 minutes in-class PP
 
 Learn more about the UW [grading scale](https://grad.uw.edu/policies-procedures/graduate-school-memoranda/memo-19-grading-system-for-graduate-students/). 
 
-```{r grading-table}
+```{r grading-table, echo = FALSE}
 
 grading <- data.frame(
   stringsAsFactors = FALSE,
@@ -72,9 +83,6 @@ grading <- data.frame(
                        NA,NA,NA,"B",NA,"B-","B-",NA,NA,"C+",NA,NA,
                        NA,"C",NA,NA,NA,"E")
 )
-
-install.packages("flextable")
-library(flextable)
 
 flextable::flextable(grading) |> 
   flextable::theme_zebra()  
@@ -127,13 +135,13 @@ read.csv(file = "syllabus.csv") |>
 ## Academic integrity
 
 Plagiarism, cheating, and other misconduct are serious violations of your contract as a  student. I expect that you will know and follow the University's policies on cheating and  plagiarism. Any suspected cases of academic misconduct will be handled according to  University regulations. More information can be found  
-at: https://depts.washington.edu/grading/pdf/AcademicResponsibility.pdf 
+at [here](https://depts.washington.edu/grading/pdf/AcademicResponsibility.pdf).  
 
 For this course, plagiarism is defined as figures and legends that are identical or eerily  similar to those of other students. You should absolutely work together, get advice and  tips from other students, and help each other (this is the essence of being a successful  and helpful scientist), but the final project must be your own work.  
+
 ## Religious accommodation policy
 
-Washington state law requires that UW develop a policy for accommodation of student  absences or significant hardship due to reasons of faith or conscience, or for organized  religious activities. The UW’s policy, including more information about how to request an  accommodation, is available at Religious Accommodations Policy. Accommodations 
-must be requested within the first two weeks of this course using the Religious  Accommodations Request form.
+Washington state law requires that UW develop a policy for accommodation of student  absences or significant hardship due to reasons of faith or conscience, or for organized  religious activities. The UW’s policy, including more information about how to request an  accommodation, is available at Religious Accommodations Policy. Accommodations must be requested within the first two weeks of this course using the Religious Accommodations Request form.
 
 ## Disability accommodations
 

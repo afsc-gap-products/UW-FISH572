@@ -3,7 +3,7 @@ title: "Frequently Asked Questions"
 ---
 
 <details>
-<summary>*Why fisheries-independent surveys are important?*</summary>
+<summary>### *Why fisheries-independent surveys are important?*</summary>
 <br>
 Fisheries-independent surveys are a foundation of fisheries stock assessment and ecosystem research. They are crucial for tracking trends in fish stocks globally. These surveys provide consistent time series data that are used in stock and ecosystem assessments.
 
@@ -17,7 +17,9 @@ Here's how they are useful:
 </details>
 
 
-## *Why would this course prepare you well for the future career in the field of fisheries science?*
+<details>
+<summary>### *Why would this course prepare you well for the future career in the field of fisheries science?*</summary>
+<br>
 
 This course, "Principles and applications of fisheries-independent surveys" (FISH 572), is designed to prepare you well for a future career in fisheries science due to its comprehensive curriculum and practical focus:
 
@@ -29,8 +31,12 @@ This course, "Principles and applications of fisheries-independent surveys" (FIS
  - **Relevance to Current Trends:** By exploring topics like survey continuity, flexible survey design, and the use of new technology, the course ensures you are updated on the latest developments and challenges in survey science, preparing you for an evolving field.
 
 Overall, the course provides a blend of theoretical knowledge, practical skills, and real-world context, making it an excellent preparation for a career in fisheries science, particularly in research and stock assessment roles.
+</details>
 
-### *Why learning about fisheries-independent surveys is critical to prepare you well for future collaboration with artificial intelligence (AI)?* 
+
+<details>
+<summary>### *Why learning about fisheries-independent surveys is critical to prepare you well for future collaboration with artificial intelligence (AI)?*</summary>
+<br>
 
 Learning about fisheries-independent surveys, as a data collection tool, can prepare you well for future collaboration with AI for several key reasons:
 
@@ -42,9 +48,12 @@ Learning about fisheries-independent surveys, as a data collection tool, can pre
  - **Adapting to New Technologies:** The course highlights the importance of modernizing survey tools and adapting to new technology. This forward-looking perspective fosters an open mind towards integrating innovative solutions, including AI, into fisheries science. Your exposure to evolving design, estimation, and technology within surveys will make you more receptive to, and capable of, leveraging AI for advanced data analysis and management.
 
 In essence, a deep understanding of fisheries-independent surveys provides you with a robust foundation in data collection principles, data quality assessment, uncertainty management, and domain-specific knowledge – all of which are critical for effective and responsible collaboration with artificial intelligence in the evolving field of fisheries science.
+</details>
 
 
-### **What is the future of fisheries-independent surveys?**
+<details>
+<summary>### *What is the future of fisheries-independent surveys?*</summary>
+<br>
 
 The future of fisheries-independent surveys is characterized by continuous modernization and adaptation to dynamic marine ecosystems and rapid technological advancements.
 
@@ -64,8 +73,12 @@ Key aspects of this future include:
  - **Increased Automation and Data Accessibility:** There will be a drive towards greater automation in sampling and data analysis to ensure timely access to data. Furthermore, data products will need to be standardized and accessible to a broad range of stakeholders, aligning with open science and data-sharing policies.
 
 In summary, the future of fisheries-independent surveys is not about wholesale replacement, but rather about strategic, incremental integration of advanced technologies, sophisticated statistical methods, and broadened ecological objectives, all while rigorously maintaining the invaluable consistency of long-term data series to inform sustainable fisheries and ecosystem management in a dynamic world.
+</details>
 
-### *I'm considering a career in marine ecology. How would this class benefit me in that pursuit?**
+
+<details>
+<summary>### *I'm considering a career in marine ecology. How would this class benefit me in that pursuit?*</summary>
+<br>
 
 This course would significantly benefit you in a career in marine ecology by providing a strong foundation in data collection, analysis, and understanding of marine ecosystems:
 
@@ -79,8 +92,12 @@ This course would significantly benefit you in a career in marine ecology by pro
  - **Hands-on Research Experience:** The "final research project using survey data" provides invaluable "experience in research planning and execution," mirroring the work of a professional marine ecologist. This hands-on experience will build your confidence and capabilities for future ecological research.
 
 In essence, this course provides a robust toolkit for a marine ecologist: strong data collection and analytical skills, an understanding of ecological principles in action, and practical knowledge of how to contribute to the management and conservation of marine environments.
+</details>
 
-### *I'm considering a career in fisheries stock assessment. How would this class benefit me in that pursuit?**
+
+<details>
+<summary>### *I'm considering a career in fisheries stock assessment. How would this class benefit me in that pursuit?*</summary>
+<br>
 
 This course would be incredibly beneficial for a career in fisheries stock assessment for the following reasons:following:
 
@@ -94,8 +111,12 @@ This course would be incredibly beneficial for a career in fisheries stock asses
  - **Practical Research Experience:** Through a hands-on final research project using real survey data, you will gain practical experience in planning, executing, and analyzing data relevant to stock assessments. This experience directly mirrors the work performed by professionals in the field.
 
 In summary, this course provides a comprehensive and forward-looking education in the science of fisheries-independent surveys, equipping you with the fundamental knowledge, advanced analytical skills, and practical understanding of data quality and technological integration that are indispensable for a successful career in fisheries stock assessment.
+</details>
 
-### *I'm considering a career in fisheries management. How would this class benefit me in that pursuit?*
+
+<details>
+<summary>### *I'm considering a career in fisheries management. How would this class benefit me in that pursuit?*</summary>
+<br>
 
 This class would significantly benefit you in a career in fisheries management by equipping you with a foundational understanding of the data and science that underpins management decisions:
 
@@ -109,8 +130,12 @@ This class would significantly benefit you in a career in fisheries management b
  - **Future-Proofing Your Knowledge:** The course touches on current topics such as:  new technology, flexible survey design, and AI/ML in data processing. This forward-looking perspective will ensure you are prepared for future advancements in how fisheries data is collected and analyzed, allowing you to incorporate innovative tools into management practices.
 
 In essence, this course provides a critical scientific literacy for any fisheries manager, enabling you to effectively use, interpret, and advocate for the robust scientific data that underpins sustainable fisheries management.
+</details>
 
-### *I'm considering a career in academia. How would this class benefit me in that pursuit?*
+
+<details>
+<summary>### *I'm considering a career in academia. How would this class benefit me in that pursuit?*</summary>
+<br>
 
 If you're considering a career in academia, this class would provide significant benefits, particularly if your academic focus is in marine science, ecology, or fisheries:
 
