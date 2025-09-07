@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1&nbsp; Customization – UW FISH 572: Principles and applications of fisheries-independent surveys</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../index.html" rel="next">
+<link href="../assets/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-2b26ff2ce9f0cc5edc0a1c91f60f6743.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link href="../site_libs/tabwid-1.1.3/tabwid.css" rel="stylesheet">
+
+<script src="../site_libs/tabwid-1.1.3/tabwid.js"></script>
+
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/course-info.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Customization</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">UW FISH 572: Principles and applications of fisheries-independent surveys</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://afsc-gap-products.github.io/UW-FISH572/" title="UW-FISH572" class="quarto-navigation-tool px-1" aria-label="UW-FISH572"><i class="bi bi-globe"></i></a>
+    <a href="https://afsc-gap-products.github.io/UW-FISH572/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-git"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="../UW-FISH-572--Principles-and-applications-of-fisheries-independent-surveys.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="../UW-FISH-572--Principles-and-applications-of-fisheries-independent-surveys.docx">
+              <i class="bi bi-file-word pe-1"></i>
+            Download Docx
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/course-info.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Customization</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Welcome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/faq.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">FAQ</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Customize</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">References</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#specific-learning-goals" id="toc-specific-learning-goals" class="nav-link active" data-scroll-target="#specific-learning-goals"><span class="header-section-number">1.1</span> Specific Learning Goals</a></li>
+  <li><a href="#course-material" id="toc-course-material" class="nav-link" data-scroll-target="#course-material"><span class="header-section-number">1.2</span> Course Material</a></li>
+  <li><a href="#course-format" id="toc-course-format" class="nav-link" data-scroll-target="#course-format"><span class="header-section-number">1.3</span> Course Format</a></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading"><span class="header-section-number">1.4</span> Grading</a></li>
+  <li><a href="#grading-scale" id="toc-grading-scale" class="nav-link" data-scroll-target="#grading-scale"><span class="header-section-number">1.5</span> Grading Scale</a></li>
+  <li><a href="#lecture-plan" id="toc-lecture-plan" class="nav-link" data-scroll-target="#lecture-plan"><span class="header-section-number">1.6</span> Lecture plan</a></li>
+  <li><a href="#academic-integrity" id="toc-academic-integrity" class="nav-link" data-scroll-target="#academic-integrity"><span class="header-section-number">1.7</span> Academic integrity</a></li>
+  <li><a href="#disability-accommodations" id="toc-disability-accommodations" class="nav-link" data-scroll-target="#disability-accommodations"><span class="header-section-number">1.8</span> Disability accommodations</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://afsc-gap-products.github.io/UW-FISH572/edit/main/content/course-info.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://afsc-gap-products.github.io/UW-FISH572/blob/main/content/course-info.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://afsc-gap-products.github.io/UW-FISH572/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Customization</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="specific-learning-goals" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="specific-learning-goals"><span class="header-section-number">1.1</span> Specific Learning Goals</h2>
+<p>This class is intended to provide useful skills for your ongoing research.</p>
+<ol type="1">
+<li>Review types of fisheries-independent surveys and survey data products for ecosystem processes research, ecological studies, stock assessment, and forecasting within these disciplines.</li>
+<li>Learn principles of sampling and survey designs, survey logistics and management, and survey data product estimation and application.</li>
+<li>Analyze fishery-independent survey data using various statistical methods.</li>
+<li>Plan research in survey science topics, e.g.&nbsp;uncertainty (observation error), survey continuity (catchability), effort optimization, flexible survey design, model-based estimators, simulations, statistical tools and new technology.</li>
+<li>Complete a research project using survey data.</li>
+<li>Learn concepts and tools for long-term strategic planning of surveys, including adapting monitoring programs to our changing ecosystems as species distributions shift due to environmental change and ecological interactions.</li>
+</ol>
+</section>
+<section id="course-material" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="course-material"><span class="header-section-number">1.2</span> Course Material</h2>
+<p>No required text. Course materials will be selected from journals, books, and other published scientific literature. These will be available as PDFs through the course website. Materials will be divided into required and optional.</p>
+</section>
+<section id="course-format" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="course-format"><span class="header-section-number">1.3</span> Course Format</h2>
+<p><strong>Lectures:</strong> Lectures will take up approximately half of the in-class time. There will be two to three lectures per week given by instructors or visiting experts. Lectures will focus on a range of topics, described with examples from different survey programs around the world. Lecture slides will be made available on the course website for downloading and reviewing.</p>
+<p><strong>Literature review and discussion sections:</strong> Students (in groups of 1-3) will be responsible for presentations on relevant literature and leading subsequent discussions in-class. Approximately one-quarter of in-class time will be used for these presentations and discussionsPresentations will include a summary of relevant scientific papers on a chosen survey-related topic and all students will be expected to actively participate in discussions. List of papers for student presentations and discussion will be provided by instructors, but students will be given the opportunity to propose a paper of their choice for presentations. The point of the discussion section is to read peer-reviewed literature and become familiar with current topics in survey science.</p>
+<p><strong>Survey data analysis:</strong> Each student will be responsible for one mid-course project to include survey data analysis on a data set of their choice (data sets from several actual surveys will be available, as needed). Analysis can involve estimation of standard design-based or model-based survey data products or could involve custom analysis for class projects.</p>
+<p><strong>Research plan and final paper:</strong> Half of the student grade is based on a final written research paper using survey data. Topics for the final paper will be proposed by students and will be presented for class discussion and feedback within the first 3 weeks of the quarter.</p>
+</section>
+<section id="grading" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="grading"><span class="header-section-number">1.4</span> Grading</h2>
+<p>Students will be graded on 4 tasks:</p>
+<p><strong>1. Project plan - 1 page and 5 min presentation (10% weight)</strong> <em>DUE: Presentation January 14</em></p>
+<p>Within the first days of the quarter students will be responsible for planning a research project. Students can propose a project of their choice as long as the data for the project is of survey origin. Project plans should be discussed with and accepted by instructors. Once accepted students will be responsible for writing a 1 page project plan and for presentation of the plan during the class. Instructors and students will provide feedback on the plan during the class discussion.</p>
+<p><strong>2. Literature review 20-30 min presentation on the survey topic (20%)</strong></p>
+<p><em>DUE: Presentation February 9</em></p>
+<p>Students will be responsible for presentations on relevant literature and leading subsequent discussion. Literature review presentations will be conducted on Feb 9 or later depending on the number of presentations. Papers for this literature review should be relevant to the final project. Students are advised to discuss potential papes for this review with instructors, but students will be given the opportunity to propose a paper(s) of their choice for presentations. Literature review presentation will be followed by Q &amp; A session and in-class discussion on the presented topics</p>
+<p><strong>3. Survey data analysis (20%)</strong> <em>DUE: 16 February</em></p>
+<p>Survey data analysis will involve estimation of standard design-based and model-based survey data products (from provided “true distributions”) or could involve custom analysis of survey data used for class projects. Format of the analysis presentation will be open and can include analysis description and graphs or tables. Analysis will be graded separately, but can be included as part of the final paper or as an independent document. Data analysis will be due at the end of week 6 of the course.</p>
+<p><strong>4. Final project - up to 5-8 pages and 20-30 min presentation (50%)</strong> <em>Due: Presentation March 4-11; Paper March 13</em></p>
+<p>Final project results will be presented in the form of 20-30 minutes in-class PPT presentation. Students will receive feedback from instructors and time for in-class discussion will be provided. Presentations will occur during the last 2 weeks of the course. Final 5 - 8 page paper will be due at the end of week 10 and graded during the week of finals.</p>
+</section>
+<section id="grading-scale" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="grading-scale"><span class="header-section-number">1.5</span> Grading Scale</h2>
+<p>Learn more about the UW <a href="https://grad.uw.edu/policies-procedures/graduate-school-memoranda/memo-19-grading-system-for-graduate-students/">grading scale</a>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="tabwid"><style>.cl-93cdde60{}.cl-93c57e8c{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-93c57ea0{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-93c95a3e{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-93c96db2{width:0.75in;background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93c96dbc{width:0.75in;background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93c96dbd{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-93cdde60"><thead><tr style="overflow-wrap:break-word;"><th class="cl-93c96db2"><p class="cl-93c95a3e"><span class="cl-93c57e8c">Percent</span></p></th><th class="cl-93c96db2"><p class="cl-93c95a3e"><span class="cl-93c57e8c">GPA</span></p></th><th class="cl-93c96db2"><p class="cl-93c95a3e"><span class="cl-93c57e8c">Letter</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">≥95</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">4</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">A</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">94</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">3.9</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">93</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">3.8</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">A-</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">92</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">3.7</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">91</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">3.6</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">90</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">3.5</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">89</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">3.4</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">B+</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">88</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">3.3</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">87</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">3.2</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">86</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">3.1</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">85</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">3</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">B</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">84</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">2.9</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">83</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">2.8</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">B-</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">82</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">2.7</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">B-</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">81</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">2.6</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">80</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">2.5</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">79</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">2.4</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">C+</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">78</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">2.3</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">77</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">2.2</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">76</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">2.1</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">75</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">2</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">C</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">74</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">1.9</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">73</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">1.8</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">72</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0">1.7</span></p></td><td class="cl-93c96dbd"><p class="cl-93c95a3e"><span class="cl-93c57ea0"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">&lt;72</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">1.6- 0.0</span></p></td><td class="cl-93c96dbc"><p class="cl-93c95a3e"><span class="cl-93c57ea0">E</span></p></td></tr></tbody></table></div>
+</div>
+</div>
+</section>
+<section id="lecture-plan" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="lecture-plan"><span class="header-section-number">1.6</span> Lecture plan</h2>
+<p><a href="https://uw.iasystem.org/survey/268860">Please fill out a class evaluation!</a></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="tabwid"><style>.cl-93f9400a{}.cl-93f150f2{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-93f150fc{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-93f150fd{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:italic;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-93f44956{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-93f44960{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-93f48d94{width:0.75in;background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48d9e{width:0.75in;background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48d9f{width:0.75in;background-color:rgba(211, 211, 211, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48da8{width:0.75in;background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48da9{width:0.75in;background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48daa{width:0.75in;background-color:rgba(211, 211, 211, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48db2{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48db3{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48db4{width:0.75in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48dbc{width:0.75in;background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48dbd{width:0.75in;background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48dc6{width:0.75in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48dc7{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-93f48dd0{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-93f9400a"><caption><p>Survey of products developed by GAP</p></caption><thead><tr style="overflow-wrap:break-word;"><th class="cl-93f48d94"><p class="cl-93f44956"><span class="cl-93f150f2">Week</span></p></th><th class="cl-93f48d9e"><p class="cl-93f44960"><span class="cl-93f150f2">Date</span></p></th><th class="cl-93f48d94"><p class="cl-93f44956"><span class="cl-93f150f2">Lecture</span></p></th><th class="cl-93f48d9e"><p class="cl-93f44960"><span class="cl-93f150f2">Instructor</span></p></th><th class="cl-93f48d9e"><p class="cl-93f44960"><span class="cl-93f150f2">Description</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-93f48d9f"><p class="cl-93f44956"><span class="cl-93f150fc">1</span></p></td><td class="cl-93f48da8"><p class="cl-93f44960"><span class="cl-93f150fc">Jan 5</span></p></td><td class="cl-93f48da9"><p class="cl-93f44956"><span class="cl-93f150fc">1</span></p></td><td class="cl-93f48da8"><p class="cl-93f44960"><span class="cl-93f150fc">Kotwicki (Wassermann)</span></p></td><td class="cl-93f48da8"><p class="cl-93f44960"><span class="cl-93f150fc">Course outline and introductions. Overview of fisheries dependent and independent data collection, types of fisheries surveys, and other survey science topics. Describe potential class project. Provide examples.</span><br><span class="cl-93f150fc">Guest Lectures: Lyle Britt (AFSC), Denise McKelvey (AFSC)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Jan 7</span></p></td><td class="cl-93f48db3"><p class="cl-93f44956"><span class="cl-93f150fc">2</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Kotwicki (Markowitz)</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Overview of survey data products for ecosystem processes research, ecological studies, stock assessment, and forecasting. </span><br><span class="cl-93f150fc">Guest Lectures: Kayla Ualesi (IPHC), Ebett Siddon (NOAA)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-93f48db4"><p class="cl-93f44956"><span class="cl-93f150fc">2</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Jan 12</span></p></td><td class="cl-93f48dbd"><p class="cl-93f44956"><span class="cl-93f150fc">3</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Barnett (Markowitz)</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Guest presentation. Design principles, sampling designs, logistics and estimation. (Ray Webster) </span><br><span class="cl-93f150fc">Guest presentation. Case study for implementing survey design (Zack Oyafuso).</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Jan 14</span></p></td><td class="cl-93f48db3"><p class="cl-93f44956"><span class="cl-93f150fc">4</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Kotwicki (Markowitz)</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Student presentations on project plan: 5 minutes presentation, 5-10 minutes for discussion.</span><br><span class="cl-93f150fc">Some general topics</span><br><span class="cl-93f150fc">a. Design of a new survey from the ground up.</span><br><span class="cl-93f150fc">b. Analysis of existing survey data (e.g. present survey data product and its uncertainty, use of survey data in assessments, role of uncertainty in assessment).</span><br><span class="cl-93f150fc">c. Literature review of a survey topic under active research.</span><br><br><span class="cl-93f150fc">Examples of literature overview. Opportunity for students to ask questions about class projects.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-93f48daa"><p class="cl-93f44956"><span class="cl-93f150fc">3</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Jan 19</span></p></td><td class="cl-93f48dbd"><p class="cl-93f44956"><span class="cl-93f150fc"></span></p></td><td colspan="2" class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fd">Martin Luther King Jr. Observed Holiday</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Jan 21</span></p></td><td class="cl-93f48db3"><p class="cl-93f44956"><span class="cl-93f150fc">5</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Kotwicki (Wassermann)</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Overview of current hot topics in survey science: Uncertainty (observation error), Survey continuity (flexibility and catchability), multispecies optimisation, flexible survey design, model-based estimation of survey data products, simulations, statistical tools and new technology. Combining surveys. Absolute indices of abundance (catchability). Changes in technology affect continuity but also improve estimates. Using observation from fishing vessels.</span><br><br><span class="cl-93f150fc">Second part of the class will consist of discussion topics picked by students after the lecture. We will pick 4 topics of interest to students, prioritize them and discuss them in detail.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-93f48db4"><p class="cl-93f44956"><span class="cl-93f150fc">4</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Jan 26</span></p></td><td class="cl-93f48dbd"><p class="cl-93f44956"><span class="cl-93f150fc">6</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Hicks (Markowitz)</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Examples of combining surveys into one platform and/or combining different data types across platforms to improve survey products. Combining acoustic/trawl data and integrating NW and SW acoustic surveys.</span><br><span class="cl-93f150fc">Main topics: changes to survey, calibration, scientific and legal process. </span><br><span class="cl-93f150fc">Guest Lectures: Cole Monnahan/Derek BolserJulia Clemons (NWFSC)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Jan 28</span></p></td><td class="cl-93f48db3"><p class="cl-93f44956"><span class="cl-93f150fc">7</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Hicks (Wassermann)</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">General considerations for using survey data in stock assessments and a few examples from recent assessments. </span><br><span class="cl-93f150fc">Guest Lecture: Ian Stewart/Allan Hicks (IPHC)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-93f48daa"><p class="cl-93f44956"><span class="cl-93f150fc">5</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Feb 2</span></p></td><td class="cl-93f48dbd"><p class="cl-93f44956"><span class="cl-93f150fc">8</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Barnett (Markowitz)</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Model-based approaches for standardizing both abundance and compositional data. </span><br><span class="cl-93f150fc">Guest Lecture: Eric Ward (NWFSC)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Feb 4</span></p></td><td class="cl-93f48db3"><p class="cl-93f44956"><span class="cl-93f150fc">9</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Barnett (Wassermann)</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Student data simulation and analysis with design- and model-based approaches</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-93f48db4"><p class="cl-93f44956"><span class="cl-93f150fc">6</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Feb 9</span></p></td><td class="cl-93f48dbd"><p class="cl-93f44956"><span class="cl-93f150fc">10</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Kotwicki (Markowitz)</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Student Led Literature Review (20min/10min)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Feb 11</span></p></td><td class="cl-93f48db3"><p class="cl-93f44956"><span class="cl-93f150fc">11</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Kotwicki (Wassermann)</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Explore total variance of a survey, sources of error, estimation methods, minimizing error, and sampling effort optimization. Survey design planning in a changing environment.</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-93f48daa"><p class="cl-93f44956"><span class="cl-93f150fc">7</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Feb 16</span></p></td><td class="cl-93f48dbd"><p class="cl-93f44956"><span class="cl-93f150fc"></span></p></td><td colspan="2" class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fd">President’s Day Observed Holiday</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Feb 18</span></p></td><td class="cl-93f48db3"><p class="cl-93f44956"><span class="cl-93f150fc">12</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Hicks (Wassermann)</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Acoustic Techniques for Fishery and Ecosystem Surveys</span><br><span class="cl-93f150fc">Guest Lecture: John Horne (UW/SAFS)</span><br><br><span class="cl-93f150fc">Engaging Industry </span><br><span class="cl-93f150fc">Guest Lecture: John Gauvin, John Harms</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-93f48db4"><p class="cl-93f44956"><span class="cl-93f150fc">8</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Feb 23</span></p></td><td class="cl-93f48dbd"><p class="cl-93f44956"><span class="cl-93f150fc">13</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Kotwicki (Markowitz)</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">International perspective</span><br><span class="cl-93f150fc">Guests &amp; panel discussion: Richard O’Driscoll (NIWA), Olav Rune Godø (IMR Norway - retired), Mark Dickey-Collas (ICES)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Feb 25</span></p></td><td class="cl-93f48db3"><p class="cl-93f44956"><span class="cl-93f150fc">14</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Hicks (Wassermann)</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Advanced Technologies. Platforms, technologies and provision of data for stock assessment. </span><br><span class="cl-93f150fc">Guests + panel discussion: Alex De Robertis (AFSC), Kresimir Williams (AFSC), Ole Shelton (NWFSC)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-93f48daa"><p class="cl-93f44956"><span class="cl-93f150fc">9</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Mar 2</span></p></td><td class="cl-93f48dbd"><p class="cl-93f44956"><span class="cl-93f150fc"></span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fd">Kotwicki (Markowitz)</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fd">Future of surveys (Kotwicki)</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fc">Mar 4</span></p></td><td class="cl-93f48db3"><p class="cl-93f44956"><span class="cl-93f150fc"></span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fd">Barnett (Wassermann)</span></p></td><td class="cl-93f48db2"><p class="cl-93f44960"><span class="cl-93f150fd">Student Presentations</span></p></td></tr><tr style="overflow-wrap:break-word;"><td rowspan="2" class="cl-93f48dc6"><p class="cl-93f44956"><span class="cl-93f150fc">10</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fc">Mar 9</span></p></td><td class="cl-93f48dbd"><p class="cl-93f44956"><span class="cl-93f150fc"></span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fd">Hicks (Markowitz)</span></p></td><td class="cl-93f48dbc"><p class="cl-93f44960"><span class="cl-93f150fd">Student Presentations</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-93f48dc7"><p class="cl-93f44960"><span class="cl-93f150fc">Mar 11</span></p></td><td class="cl-93f48dd0"><p class="cl-93f44956"><span class="cl-93f150fc"></span></p></td><td class="cl-93f48dc7"><p class="cl-93f44960"><span class="cl-93f150fd">Kotwicki (Wassermann)</span></p></td><td class="cl-93f48dc7"><p class="cl-93f44960"><span class="cl-93f150fd">Student Presentations</span><br><span class="cl-93f150fd">Class Evaluation URL: https://uw.iasystem.org/survey/268860</span></p></td></tr></tbody></table></div>
+</div>
+</div>
+</section>
+<section id="academic-integrity" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="academic-integrity"><span class="header-section-number">1.7</span> Academic integrity</h2>
+<p>Plagiarism, cheating, and other misconduct are serious violations of your contract as a student. I expect that you will know and follow the University’s policies on cheating and plagiarism. Any suspected cases of academic misconduct will be handled according to University regulations. More information can be found<br>
+at: https://depts.washington.edu/grading/pdf/AcademicResponsibility.pdf</p>
+<p>For this course, plagiarism is defined as figures and legends that are identical or eerily similar to those of other students. You should absolutely work together, get advice and tips from other students, and help each other (this is the essence of being a successful and helpful scientist), but the final project must be your own work.<br>
+## Religious accommodation policy</p>
+<p>Washington state law requires that UW develop a policy for accommodation of student absences or significant hardship due to reasons of faith or conscience, or for organized religious activities. The UW’s policy, including more information about how to request an accommodation, is available at Religious Accommodations Policy. Accommodations must be requested within the first two weeks of this course using the Religious Accommodations Request form.</p>
+</section>
+<section id="disability-accommodations" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="disability-accommodations"><span class="header-section-number">1.8</span> Disability accommodations</h2>
+<p>To request academic accommodations due to a disability, please contact Disability Resources for Students, 448 Schmitz, (206)543-8924 (V/TTY). If you have a letter from Disability Resources for Students indicating that you have a disability which requires academic accommodations, please present the letter to the instructor so we can discuss the accommodations needed for this class.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/afsc-gap-products\.github\.io\/UW-FISH572\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../index.html" class="pagination-link" aria-label="Welcome">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Welcome</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© CC-1.0</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://afsc-gap-products.github.io/UW-FISH572/edit/main/content/course-info.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://afsc-gap-products.github.io/UW-FISH572/blob/main/content/course-info.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://afsc-gap-products.github.io/UW-FISH572/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
