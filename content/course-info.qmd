@@ -56,7 +56,7 @@ Final project results will be presented in the form of 20-30 minutes in-class PP
 
 Learn more about the UW [grading scale](https://grad.uw.edu/policies-procedures/graduate-school-memoranda/memo-19-grading-system-for-graduate-students/). 
 
-```{r}
+```{r grading-table}
 
 grading <- data.frame(
   stringsAsFactors = FALSE,
@@ -84,7 +84,7 @@ flextable::flextable(grading) |>
 
 [Please fill out a class evaluation!](https://uw.iasystem.org/survey/268860)
 
-```{r, echo = FALSE, include = FALSE, eval = FALSE}
+```{r syllabus-dl, echo = FALSE, include = FALSE, eval = FALSE}
 library(googledrive)
 library(flextable)
 googledrive::drive_auth()
@@ -97,7 +97,7 @@ googledrive::drive_download(
   path = ("syllabus.csv"))
 ```
 
-```{r prod-table}
+```{r syllabus-table}
 #| tbl-cap: Survey of products developed by GAP
 #| message: false
 #| warning: false
