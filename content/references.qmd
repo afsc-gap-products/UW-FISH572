@@ -5,13 +5,11 @@ nocite: |
   @*
 ---
 
-# References {.unnumbered}
-
 # NOAA quarto book with R and download PDF or docx
 
 This is a template for [a simple Quarto book](https://nmfs-opensci.github.io/NOAA-quarto-book/) (`type: book`). It has download links (under the logo) for PDF or docx download.
 
 The repo includes a GitHub Action that will build the book (html, PDF, and docx) automatically when you make changes to the files. The webpage will use the `gh-pages` branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch. 
 
-## References
+# References {.unnumbered}
 
