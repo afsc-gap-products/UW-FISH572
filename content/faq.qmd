@@ -2,10 +2,9 @@
 title: "FAQ"
 ---
 
-## FAQ
-
-### *Why fisheries-independent surveys are important?*
-
+<details>
+<summary>*Why fisheries-independent surveys are important?*</summary>
+<br>
 Fisheries-independent surveys are a foundation of fisheries stock assessment and ecosystem research. They are crucial for tracking trends in fish stocks globally. These surveys provide consistent time series data that are used in stock and ecosystem assessments.
 
 Here's how they are useful:
@@ -15,6 +14,8 @@ Here's how they are useful:
  - **Unbiased Information about Change:** Unlike data obtained from commercial or recreational fisheries, surveys aim to obtain samples based on statistically rigorous designs. This allows for the inference that observed changes in a abundance index (AI), or other types of data over time are indicative of true changes in the abundance and other population parameters of a monitored stocks.
  - **Stock Assessment Input:** Fish stock assessment models require AIs as a measure of the relative or absolute abundance of a population. Estimates of AI uncertainty are often incorporated into these models as weighting criteria.
  - **Monitoring and Adaptation:** Surveys are conducted worldwide to determine the status of marine populations and characterize the state of marine ecosystems. As marine ecosystems change and technology advances, modernizing survey tools allows to maintain critical survey time series and deliver the best available science to support sustainable fisheries management. This includes adapting to changes in ecosystems and technology through evolving design, estimation, and technology.
+</details>
+
 
 ## *Why would this course prepare you well for the future career in the field of fisheries science?*
 
