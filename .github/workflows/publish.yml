@@ -32,12 +32,17 @@ jobs:
           target: gh-pages
           
       - uses: r-lib/actions/setup-tinytex@v2 # Add this step
+
       - name: Install dependencies
         run: |
-              install.packages(c("remotes", "tidyverse", "tinytex", "rmarkdown", "flextable", "here")) # Example packages
-              remotes::install_deps(dependencies = TRUE)
-        shell: Rscript {0}
-      - name: Render R Markdown or Quarto documents
-        run: |
-              rmarkdown::render("my_document.Rmd") # Or quarto render my_document.qmd
+          R -e 'install.packages(c("remotes", "tidyverse", "tinytex", "rmarkdown", "flextable", "here"))'
+      
+      # - name: Install dependencies
+      #   run: |
+      #         install.packages(c("remotes", "tidyverse", "tinytex", "rmarkdown", "flextable", "here")) # Example packages
+      #         remotes::install_deps(dependencies = TRUE)
+        # shell: Rscript {0}
+      # - name: Render R Markdown or Quarto documents
+      #   run: |
+      #         rmarkdown::render("my_document.Rmd") # Or quarto render my_document.qmd
         shell: Rscript {0}          

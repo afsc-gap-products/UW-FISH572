@@ -1,5 +1,5 @@
 ---
-title: Customization
+title: Course Information
 ---
 
 ## Specific Learning Goals
