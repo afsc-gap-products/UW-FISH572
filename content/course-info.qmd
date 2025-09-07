@@ -73,7 +73,7 @@ grading <- data.frame(
                        NA,"C",NA,NA,NA,"E")
 )
 
-# install.packages("flextable")
+install.packages("flextable")
 library(flextable)
 
 flextable::flextable(grading) |> 

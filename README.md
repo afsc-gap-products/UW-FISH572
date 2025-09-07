@@ -25,7 +25,8 @@ repository](https://github.com/afsc-gap-products/gap_products/issues).
 
 ## Run notes
 
-Will need to install [miktex](https://miktex.org/) and run the following code in the console.
+The user will need to install [miktex](https://miktex.org/) and run this book.
+The user may need to install and use renv so this package will work with github actions.
 
 # NOAA quarto book with R and download PDF or docx
 
