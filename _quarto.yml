@@ -69,6 +69,9 @@ book:
     collapse-level: 1
 
 bibliography: [content/references.bib]
+csl: content/references.csl
+# csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-no-ampersand.csl
+# bibliography: https://raw.githubusercontent.com/afsc-gap-products/citations/main/cite/bibliography.bib
 
 execute:
   echo: false
