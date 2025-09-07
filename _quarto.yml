@@ -3,9 +3,9 @@ project:
 
 book: 
   page-navigation: true
-  title: "NOAA quarto book" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-book" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-book"
+  title: "UW FISH 572: Principles and applications of fisheries-independent surveys" 
+  site-url: "https://afsc-gap-products.github.io/UW-FISH572/" 
+  repo-url: "https://afsc-gap-products.github.io/UW-FISH572/"
   repo-actions: [edit, source, issue]
   favicon: assets/favicon.ico
   downloads: [pdf, docx]
@@ -48,11 +48,7 @@ book:
     - index.qmd
     - content/faq.qmd
     - content/resources.qmd
-    # - content/rendering.qmd
-    # - content/figures_and_tables.qmd
-    # - content/code.qmd
-    # - content/adding-refs.qmd
-    # - content/references.qmd
+    - content/references.qmd
 
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
@@ -66,8 +62,8 @@ book:
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
+        href: https://afsc-gap-products.github.io/UW-FISH572/
+        text: "UW-FISH572"
     style: "docked"
     search: true
     collapse-level: 1
