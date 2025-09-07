@@ -1,8 +1,6 @@
 ---
 title: "References"
 bibliography: references.bib
-nocite: |
-  @*
 ---
 
 # NOAA quarto book with R and download PDF or docx
