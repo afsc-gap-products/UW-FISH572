@@ -1,6 +1,6 @@
 # [UW FISH 572](https://github.com/afsc-gap-products/UW-FISH572) <img src="https://avatars.githubusercontent.com/u/91760178?s=96&amp;v=4" alt="Logo." align="right" width="139" height="139"/>
 
-*This code is primarally maintained by:*
+*This code is primarally maintained by:* 
 
 **Emily Markowitz** (Emily.Markowitz AT noaa.gov;
 [@EmilyMarkowitz-NOAA](https://github.com/EmilyMarkowitz-NOAA))
