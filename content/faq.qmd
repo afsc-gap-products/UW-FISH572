@@ -2,6 +2,8 @@
 title: "Frequently Asked Questions"
 ---
 
+This is a quick-reference for common questions about the course. If you don’t find what you need here, please contact the course instructors.
+
 <details>
 <summary><h3>*Why fisheries-independent surveys are important?*</h3></summary>
 <br>
