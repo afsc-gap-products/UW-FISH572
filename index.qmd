@@ -14,6 +14,8 @@ link_repo <- "https://github.com/afsc-gap-products/UW-FISH572"
 
 > Please consider this resource to be a **Living Document**. The code in this repository is regularly being updated and improved. Please refer to [releases](`r paste0(link_repo, '/releases')`) for finalized products and project milestones.
 
+![](./images/FISH572-flyer.png)
+
 ## Instructors
 
 [**Dr. Stan Kotwicki**](https://www.fisheries.noaa.gov/contact/stan-kotwicki), Groundfish Assessment Program Manager, Alaska Fisheries Science Center, NOAA. Stan.Kotwicki@noaa.gov
@@ -27,8 +29,6 @@ link_repo <- "https://github.com/afsc-gap-products/UW-FISH572"
 [**Dr. Sophia Wassermann**](https://sowasser.com/), Research Fish Biologist, Alaska Fisheries Science Center, NOAA. Sophia.Wassermann AT noaa.gov
 
 [**Emily Markowitz**](https://www.fisheries.noaa.gov/contact/emily-markowitz), Research Fish Biologist, Alaska Fisheries Science Center, NOAA. Emily.Markowtiz AT noaa.gov
-
-![](./images/FISH572-flyer.png)
 
 ## Course Summary
 
