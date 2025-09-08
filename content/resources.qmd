@@ -10,3 +10,13 @@ title: Resources
 -   [Publications and Data Reports](https://repository.library.noaa.gov/)
 -   [Research Surveys conducted at AFSC](https://www.fisheries.noaa.gov/alaska/ecosystems/alaska-fish-research-surveys)
 
+## Relevant publications
+
+```{r source-current-tm}
+source("https://raw.githubusercontent.com/afsc-gap-products/citations/main/cite/current_data_tm.r") # srvy_cite 
+```
+
+**Learn more about these surveys and ocean temperatures around Alaska** [`r paste0("@", srvy_cite$CITE, collapse = "; ")`]. 
+
+<div id="refs"></div>
+

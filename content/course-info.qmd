@@ -3,12 +3,27 @@ title: Course Information
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, include = FALSE, warning = FALSE, error = FALSE, message = FALSE)
 
 install.packages("flextable")
 library(flextable)
 flextable::set_flextable_defaults(font.family = "Arial")
 ```
+
+## Lectures
+
+Mon, Wed, 9:00-10:50 am, in person at FSH 203
+
+## Office hours
+
+Email instructors to set up meetings.
+
+## Credits
+
+It is a 4-credit class with numerical grades. It is expected that students will work on assignments about 8 hours per week. Given the limited in-class time, we expect active  participation in all lectures and discussions.  
+
+## Prerequisites
+
+Basic statistics, statistical modeling, background in fisheries/wildlife science; if unclear of eligibility, please correspond with the instructor to obtain permission.
 
 ## Specific Learning Goals
 
@@ -67,7 +82,7 @@ Final project results will be presented in the form of 20-30 minutes in-class PP
 
 Learn more about the UW [grading scale](https://grad.uw.edu/policies-procedures/graduate-school-memoranda/memo-19-grading-system-for-graduate-students/). 
 
-```{r grading-table, echo = FALSE}
+```{r grading-table}
 
 grading <- data.frame(
   stringsAsFactors = FALSE,
@@ -93,7 +108,7 @@ flextable::flextable(grading) |>
 
 [Please fill out a class evaluation!](https://uw.iasystem.org/survey/268860)
 
-```{r syllabus-dl, echo = FALSE, include = FALSE, eval = FALSE}
+```{r syllabus-dl, eval = FALSE, include = FALSE}
 library(googledrive)
 library(flextable)
 googledrive::drive_auth()
@@ -108,10 +123,6 @@ googledrive::drive_download(
 
 ```{r syllabus-table}
 #| tbl-cap: Survey of products developed by GAP
-#| message: false
-#| warning: false
-#| echo: false
-
 
 # Define a function to determine row colors based on the 'Category' column
 # This function takes the column values as input and returns a vector of colors
