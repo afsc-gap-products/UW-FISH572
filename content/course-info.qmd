@@ -6,7 +6,7 @@ title: Course Information
 
 install.packages("flextable")
 library(flextable)
-flextable::set_flextable_defaults(font.family = "Arial")
+# flextable::set_flextable_defaults(font.family = "Liberation Sans") # Arial
 ```
 
 ## Lectures
