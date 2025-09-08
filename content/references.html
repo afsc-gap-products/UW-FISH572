@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -170,7 +189,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#noaa-quarto-book-with-r-and-download-pdf-or-docx" id="toc-noaa-quarto-book-with-r-and-download-pdf-or-docx" class="nav-link active" data-scroll-target="#noaa-quarto-book-with-r-and-download-pdf-or-docx"><span class="header-section-number">6</span> NOAA quarto book with R and download PDF or docx</a></li>
+  <li><a href="#noaa-quarto-book-with-r-and-download-pdf-or-docx" id="toc-noaa-quarto-book-with-r-and-download-pdf-or-docx" class="nav-link active" data-scroll-target="#noaa-quarto-book-with-r-and-download-pdf-or-docx"><span class="header-section-number">5.1</span> NOAA quarto book with R and download PDF or docx</a></li>
+  <li><a href="#noaa-readme" id="toc-noaa-readme" class="nav-link" data-scroll-target="#noaa-readme"><span class="header-section-number">5.2</span> NOAA README</a></li>
+  <li><a href="#noaa-license" id="toc-noaa-license" class="nav-link" data-scroll-target="#noaa-license"><span class="header-section-number">5.3</span> NOAA License</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://afsc-gap-products.github.io/UW-FISH572/edit/main/content/references.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://afsc-gap-products.github.io/UW-FISH572/blob/main/content/references.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://afsc-gap-products.github.io/UW-FISH572/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -197,13 +218,61 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="noaa-quarto-book-with-r-and-download-pdf-or-docx" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> NOAA quarto book with R and download PDF or docx</h1>
+<section id="noaa-quarto-book-with-r-and-download-pdf-or-docx" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="noaa-quarto-book-with-r-and-download-pdf-or-docx"><span class="header-section-number">5.1</span> NOAA quarto book with R and download PDF or docx</h2>
 <p>This is a template for <a href="https://nmfs-opensci.github.io/NOAA-quarto-book/">a simple Quarto book</a> (<code>type: book</code>). It has download links (under the logo) for PDF or docx download.</p>
 <p>The repo includes a GitHub Action that will build the book (html, PDF, and docx) automatically when you make changes to the files. The webpage will use the <code>gh-pages</code> branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.</p>
 </section>
+<section id="noaa-readme" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="noaa-readme"><span class="header-section-number">5.2</span> NOAA README</h2>
+<p>This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.</p>
+</section>
+<section id="noaa-license" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="noaa-license"><span class="header-section-number">5.3</span> NOAA License</h2>
+<p>Software code created by U.S. Government employees is not subject to copyright in the United States (17 U.S.C. §105). The United States/Department of Commerce reserve all rights to seek and obtain copyright protection in countries other than the United States for Software authored in its entirety by the Department of Commerce. To this end, the Department of Commerce hereby grants to Recipient a royalty-free, nonexclusive license to use, copy, and create derivative works of the Software outside of the United States.</p>
+</section>
 <section id="references" class="level1 unnumbered">
 <h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-RN979" class="csl-entry" role="listitem">
+Hoff, G. R. (2016). <em>Results of the 2016 eastern <span>Bering
+Sea</span> upper continental slope survey of groundfishes and
+invertebrate resources</em> (NOAA Tech. Memo. NOAA-AFSC-339). <span>U.S.
+Dep. Commer.</span> <a href="https://doi.org/10.7289/V5/TM-AFSC-339">https://doi.org/10.7289/V5/TM-AFSC-339</a>
+</div>
+<div id="ref-2023NEBS" class="csl-entry" role="listitem">
+Markowitz, E. H., Dawson, E. J., Wassermann, S., Anderson, C. B., Rohan,
+S. K., Charriere, B. K., and Stevenson, D. E. (2024). <em>Results of the
+2023 eastern and northern <span>Bering Sea</span> continental shelf
+bottom trawl survey of groundfish and invertebrate fauna</em> (NOAA
+Tech. Memo. NMFS-AFSC-487; p. 242). <span>U.S. Dep. Commer.</span> <a href="https://doi.org/10.25923/2mry-yx09">https://doi.org/10.25923/2mry-yx09</a>
+</div>
+<div id="ref-2024EBS" class="csl-entry" role="listitem">
+Markowitz, E. H., Wassermann, S., Rohan, S. K., Charriere, B. K.,
+Anderson, C. B., and Stevenson, D. E. (2025). <em>Results of the 2024
+eastern and northern <span>Bering Sea</span> continental shelf bottom
+trawl survey of groundfish and invertebrate fauna</em> (NOAA Tech. Memo.
+NMFS-AFSC-499; p. 203). <span>U.S. Dep. Commer.</span> <a href="https://doi.org/10.25923/8qa3-x785">https://doi.org/10.25923/8qa3-x785</a>
+</div>
+<div id="ref-GOA2023" class="csl-entry" role="listitem">
+Siple, M. C., Szalay, P. G. von, Raring, N. W., Dowlin, A. N., and
+Riggle, B. C. (2024). <em>Data report: 2023 gulf of alaska bottom trawl
+survey</em> (NOAA Tech. Memo. AFSC processed report; 2024-09).
+<span>U.S. Dep. Commer.</span> <a href="https://doi.org/10.25923/gbb1-x748">https://doi.org/10.25923/gbb1-x748</a>
+</div>
+<div id="ref-AI2022" class="csl-entry" role="listitem">
+Von Szalay, P. G., Raring, N. W., Siple, M. C., Dowlin, A. N., Riggle,
+B. C., and Laman, E. A. and. (2023). <em>Data report: 2022
+<span>Aleutian Islands</span> bottom trawl survey</em> (AFSC Processed
+Rep. 2023-07; p. 230). <span>U.S. Dep. Commer.</span> <a href="https://doi.org/10.25923/85cy-g225">https://doi.org/10.25923/85cy-g225</a>
+</div>
+<div id="ref-SAPcrab2024" class="csl-entry" role="listitem">
+Zacher, L. S., Richar, J. I., Fedewa, E. J., Ryznar, E. R., and Litzow,
+M. A. (2024). <em>The 2024 eastern <span>Bering Sea</span> continental
+shelf trawl survey: Results for commercial crab species</em> [NOAA Tech.
+Memo.]. <em>NFMS-AFSC-491</em>, 237. <a href="https://doi.org/10.25923/q0fw-z324">https://doi.org/10.25923/q0fw-z324</a>
+</div>
+</div>
 
 
 </section>
