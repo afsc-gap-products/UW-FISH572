@@ -11,7 +11,8 @@ library(flextable)
 
 ## Lectures
 
-Mon, Wed, 9:00-10:50 am, in person at FSH 203
+Mondays and Wednesdays 9:00-10:50 am
+In person in room FSH 203
 
 ## Office hours
 
@@ -140,7 +141,10 @@ read.csv(file = "syllabus.csv") |>
   flextable::theme_zebra() |> 
   flextable::italic(i = ~ is.na(Lecture), j = c("Instructor", "Description"), italic = TRUE) |> 
   flextable::border_inner_h() |> 
-  flextable::bg(j = "Week", part = "body", bg = color_by_category)
+  flextable::border(part = "header") |> 
+  flextable::bg(j = "Week", part = "body", bg = color_by_category) |> 
+  flextable::fit_to_width(max_width = 6.5) |> 
+  flextable::width(j = "Description", width = 4)
 ```
 
 ## Academic integrity
