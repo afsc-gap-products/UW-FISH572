@@ -7,7 +7,7 @@ book:
   site-url: "https://afsc-gap-products.github.io/UW-FISH572/" 
   repo-url: "https://afsc-gap-products.github.io/UW-FISH572/"
   repo-actions: [edit, source, issue]
-  favicon: assets/favicon.ico
+  favicon: images/favicon.png
   downloads: [pdf, docx]
   search: true
   author:
@@ -56,8 +56,8 @@ book:
   
   sidebar:
     background: "#D9E3E4"
-    logo: images/favicon.ico
-    favicon: images/favicon.ico
+    logo: images/favicon.png
+    favicon: images/favicon.png
     pinned: true
     align: center
     tools: 

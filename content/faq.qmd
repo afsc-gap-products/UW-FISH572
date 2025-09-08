@@ -3,8 +3,7 @@ title: "Frequently Asked Questions"
 ---
 
 <details>
-<summary>
-### *Why fisheries-independent surveys are important?*</summary>
+<summary><h3>*Why fisheries-independent surveys are important?*</h3></summary>
 <br>
 Fisheries-independent surveys are a foundation of fisheries stock assessment and ecosystem research. They are crucial for tracking trends in fish stocks globally. These surveys provide consistent time series data that are used in stock and ecosystem assessments.
 
@@ -19,8 +18,7 @@ Here's how they are useful:
 
 
 <details>
-<summary>
-### *Why would this course prepare you well for the future career in the field of fisheries science?*</summary>
+<summary><h3>*Why would this course prepare you well for the future career in the field of fisheries science?*</h3></summary>
 <br>
 
 This course, "Principles and applications of fisheries-independent surveys" (FISH 572), is designed to prepare you well for a future career in fisheries science due to its comprehensive curriculum and practical focus:
@@ -37,8 +35,7 @@ Overall, the course provides a blend of theoretical knowledge, practical skills,
 
 
 <details>
-<summary>
-### *Why learning about fisheries-independent surveys is critical to prepare you well for future collaboration with artificial intelligence (AI)?*</summary>
+<summary><h3>*Why learning about fisheries-independent surveys is critical to prepare you well for future collaboration with artificial intelligence (AI)?*</h3></summary>
 <br>
 
 Learning about fisheries-independent surveys, as a data collection tool, can prepare you well for future collaboration with AI for several key reasons:
@@ -55,8 +52,7 @@ In essence, a deep understanding of fisheries-independent surveys provides you w
 
 
 <details>
-<summary>
-### *What is the future of fisheries-independent surveys?*</summary>
+<summary><h3>*What is the future of fisheries-independent surveys?*</h3></summary>
 <br>
 
 The future of fisheries-independent surveys is characterized by continuous modernization and adaptation to dynamic marine ecosystems and rapid technological advancements.
@@ -81,8 +77,7 @@ In summary, the future of fisheries-independent surveys is not about wholesale r
 
 
 <details>
-<summary>
-### *I'm considering a career in marine ecology. How would this class benefit me in that pursuit?*</summary>
+<summary><h3>*I'm considering a career in marine ecology. How would this class benefit me in that pursuit?*</h3></summary>
 <br>
 
 This course would significantly benefit you in a career in marine ecology by providing a strong foundation in data collection, analysis, and understanding of marine ecosystems:
@@ -101,8 +96,7 @@ In essence, this course provides a robust toolkit for a marine ecologist: strong
 
 
 <details>
-<summary>
-### *I'm considering a career in fisheries stock assessment. How would this class benefit me in that pursuit?*</summary>
+<summary><h3>*I'm considering a career in fisheries stock assessment. How would this class benefit me in that pursuit?*</h3></summary>
 <br>
 
 This course would be incredibly beneficial for a career in fisheries stock assessment for the following reasons:following:
@@ -121,8 +115,7 @@ In summary, this course provides a comprehensive and forward-looking education i
 
 
 <details>
-<summary>
-### *I'm considering a career in fisheries management. How would this class benefit me in that pursuit?*</summary>
+<summary><h3>*I'm considering a career in fisheries management. How would this class benefit me in that pursuit?*</h3></summary>
 <br>
 
 This class would significantly benefit you in a career in fisheries management by equipping you with a foundational understanding of the data and science that underpins management decisions:
@@ -141,8 +134,7 @@ In essence, this course provides a critical scientific literacy for any fisherie
 
 
 <details>
-<summary>
-### *I'm considering a career in academia. How would this class benefit me in that pursuit?*</summary>
+<summary><h3>*I'm considering a career in academia. How would this class benefit me in that pursuit?*</h3></summary>
 <br>
 
 If you're considering a career in academia, this class would provide significant benefits, particularly if your academic focus is in marine science, ecology, or fisheries:
