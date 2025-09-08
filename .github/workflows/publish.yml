@@ -34,6 +34,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
 
+    - name: Install TeX Live with fonts
+      run: sudo apt-get update && sudo apt-get install -y texlive-fonts-extra texlive-xetex
+      
       # - name: Install Microsoft core fonts
       #   run: |
       #     sudo apt-get update
