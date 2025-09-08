@@ -51,12 +51,12 @@ book:
     - content/references.qmd
 
   page-footer:
-    right: "This page is built with [Quarto](https://quarto.org/)."
+    right: "[U.S. Department of Commerce](https://www.commerce.gov/) | [National Oceanographic and Atmospheric Administration](https://www.noaa.gov) | [NOAA Fisheries](https://www.fisheries.noaa.gov/)" 
     left: "&copy; CC-1.0"
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    logo: images/favicon.ico
     favicon: images/favicon.ico
     pinned: true
     align: center
@@ -66,7 +66,7 @@ book:
         text: "UW-FISH572"
     style: "docked"
     search: true
-    collapse-level: 1
+    collapse-level: 2
 
 bibliography: [content/references.bib]
 csl: content/references.csl
@@ -75,8 +75,14 @@ csl: content/references.csl
 
 execute:
   echo: false
+  # eval: true
+  error: false
+  message: false
+  comment: false
+  warning: false
   code-overflow: wrap
-
+  freeze: auto
+  
 format:
   titlepage-pdf:
     documentclass: scrbook
