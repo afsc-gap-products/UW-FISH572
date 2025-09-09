@@ -5,7 +5,7 @@ book:
   page-navigation: true
   title: "UW FISH 572: Principles and applications of fisheries-independent surveys" 
   site-url: "https://afsc-gap-products.github.io/UW-FISH572/" 
-  repo-url: "https://afsc-gap-products.github.io/UW-FISH572/"
+  repo-url: "https://github.com/afsc-gap-products/UW-FISH572"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.png
   downloads: [pdf, docx]
