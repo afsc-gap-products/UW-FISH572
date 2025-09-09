@@ -98,7 +98,7 @@ data.frame(
             Letter = c("A",NA,"A-",NA,NA,NA,"B+",
                        NA,NA,NA,"B",NA,"B-","B-",NA,NA,"C+",NA,NA,
                        NA,"C",NA,NA,NA,"E") ) |> 
-  flextable::flextable(grading) |> 
+  flextable::flextable() |> 
   flextable::theme_zebra()  
 
 ```
