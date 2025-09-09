@@ -11,8 +11,7 @@ library(flextable)
 
 ## Lectures
 
-Mondays and Wednesdays 9:00-10:50 am
-In person in room FSH 203
+Mondays and Wednesdays 9:00-10:50 am: In person in room FSH 203.
 
 ## Office hours
 
@@ -20,7 +19,7 @@ Email instructors to set up meetings.
 
 ## Credits
 
-It is a 4-credit class with numerical grades. It is expected that students will work on assignments about 8 hours per week. Given the limited in-class time, we expect active  participation in all lectures and discussions.  
+It is a 4-credit class with numerical grades. It is expected that students will work on assignments for about 8 hours per week. Given the limited in-class time, we expect active  participation in all lectures and discussions.  
 
 ## Prerequisites
 
@@ -33,7 +32,7 @@ This class is intended to provide useful skills for your ongoing research.
 1. Review types of fisheries-independent surveys and survey data products for ecosystem processes research, ecological studies, stock assessment, and forecasting within these disciplines.
 2. Learn principles of sampling and survey designs, survey logistics and management, and survey data product estimation and application.
 3. Analyze fishery-independent survey data using various statistical methods.
-4. Plan research in survey science topics, e.g. uncertainty (observation error), survey continuity (catchability), effort optimization, flexible survey design, model-based estimators, simulations, statistical tools and new technology.
+4. Plan research in survey science topics, e.g. uncertainty (observation error), survey continuity (catchability), effort optimization, flexible survey design, model-based estimators, simulations, statistical tools, and new technology.
 5. Complete a research project using survey data.
 6. Learn concepts and tools for long-term strategic planning of surveys, including adapting monitoring programs to our changing ecosystems as species distributions shift due to environmental change and ecological interactions. 
 
@@ -45,11 +44,11 @@ No required text. Course materials will be selected from journals, books, and ot
 
 **Lectures:** Lectures will take up approximately half of the in-class time. There will be two to three lectures per week given by instructors or visiting experts. Lectures will focus on a range of topics, described with examples from different survey programs around the world. Lecture slides will be made available on the course website for downloading and reviewing.
 
-**Literature review and discussion sections:** Students (in groups of 1-3) will be responsible for presentations on relevant literature and leading subsequent discussions in-class. Approximately one-quarter of in-class time will be used for these presentations and discussionsPresentations will include a summary of relevant scientific papers on a chosen survey-related topic and all students will be expected to actively participate in discussions. List of papers for student presentations and discussion will be provided by instructors, but students will be given the opportunity to propose a paper of their choice for presentations. The point of the discussion section is to read peer-reviewed literature and become familiar with current topics in survey science.
+**Literature review and discussion sections:** Students (in groups of 1-3) will be responsible for presentations on relevant literature and leading subsequent discussions in class. Approximately one-quarter of in-class time will be used for these presentations and discussions. Presentations will include a summary of relevant scientific papers on a chosen survey-related topic, and all students will be expected to actively participate in discussions. A list of papers for student presentations and discussion will be provided by instructors, but students will be given the opportunity to propose a paper of their choice for presentations. The point of the discussion section is to read peer-reviewed literature and become familiar with current topics in survey science.
 
 **Survey data analysis:** Each student will be responsible for one mid-course project to include survey data analysis on a data set of their choice (data sets from several actual surveys will be available, as needed). Analysis can involve estimation of standard design-based or model-based survey data products or could involve custom analysis for class projects.
 
-**Research plan and final paper:** Half of the student grade is based on a final written research paper using survey data. Topics for the final paper will be proposed by students and will be presented for class discussion and feedback within the first 3 weeks of the quarter.
+**Research plan and final paper:** Half of the student's grade is based on a final written research paper using survey data. Topics for the final paper will be proposed by students and will be presented for class discussion and feedback within the first 3 weeks of the quarter.
 
 ## Grading
 
@@ -59,25 +58,25 @@ Students will be graded on 4 tasks:
 
 *DUE: Presentation January 14*
 
-Within the first days of the quarter students will be responsible for planning a research project. Students can propose a project of their choice as long as the data for the project is of survey origin. Project plans should be discussed with and accepted by instructors. Once accepted students will be responsible for writing a 1 page project plan and for presentation of the plan during the class. Instructors and students will provide feedback on the plan during the class discussion. 
+Within the first days of the quarter, students will be responsible for planning a research project. Students can propose a project of their choice as long as the data for the project are from a fishery-independent survey. Project plans should be discussed with and accepted by instructors. Once accepted, students will be responsible for writing a 1-page project plan and for presenting the plan during the class. Instructors and students will provide feedback on the plan during the class discussion. 
 
 **2. Literature review 20-30 min presentation on the survey topic (20%)**
 
 *DUE: Presentation February 9*
 
-Students will be responsible for presentations on relevant literature and leading subsequent discussion. Literature review presentations will be conducted on Feb 9 or later depending on the number of presentations. Papers for this literature review should be relevant to the final  project. Students are advised to discuss potential papes for this review with instructors, but students will be given the opportunity to propose a paper(s) of their choice for presentations. Literature review presentation will be followed by Q & A session and in-class discussion on the presented topics
+Students will be responsible for presentations on relevant literature and leading subsequent discussions. Literature review presentations will be conducted on Feb 9 or later, depending on the number of presentations. Papers for this literature review should be relevant to the final  project. Students are advised to discuss potential papers for this review with instructors, but students will be given the opportunity to propose a paper(s) of their choice for presentations. The literature review presentation will be followed by a Q & A session and in-class discussion on the presented topics.
 
 **3. Survey data analysis (20%)**
 
 *DUE: 16 February*
 
-Survey data analysis will involve estimation of standard design-based and model-based survey data products (from provided “true distributions”) or could involve custom analysis of survey data used for class projects. Format of the analysis presentation will be open and can include analysis description and graphs or tables. Analysis will be graded separately, but can be included as part of the final paper or as an independent document. Data analysis will be due at the end of week 6 of the course.  
+Survey data analysis will involve estimation of standard design-based and model-based survey data products (from provided simulated “true distributions”) or could involve custom analysis of survey data used for class projects. The format of the analysis presentation will be open and can include an analysis description with graphs and/or tables. Analyses will be graded separately, but can be included as part of the final paper or as an independent document. Data analysis will be due at the end of week 6 of the course.  
 
 **4. Final project - up to 5-8 pages and 20-30 min presentation (50%)**
 
 *Due: Presentation March 4-11; Paper March 13*
 
-Final project results will be presented in the form of 20-30 minutes in-class PPT presentation. Students will receive feedback from instructors and time for in-class discussion will be provided. Presentations will occur during the last 2 weeks of the course. Final 5 - 8 page paper will be due at the end of week 10 and graded during the week of finals.
+Final project results will be presented in the form of a 20-30 minute in-class slide presentation. Students will receive feedback from instructors, and time for in-class discussion will be provided. Presentations will occur during the last 2 weeks of the course. Final 5 - 8 page paper will be due at the end of week 10 and graded during the week of finals.
 
 ## Grading Scale
 
@@ -146,15 +145,14 @@ read.csv(file = "syllabus.csv") |>
 
 ## Academic integrity
 
-Plagiarism, cheating, and other misconduct are serious violations of your contract as a  student. I expect that you will know and follow the University's policies on cheating and  plagiarism. Any suspected cases of academic misconduct will be handled according to  University regulations. More information can be found  
-at [here](https://depts.washington.edu/grading/pdf/AcademicResponsibility.pdf).  
+Plagiarism, cheating, and other misconduct are serious violations of your contract as a student. We expect that you will know and follow the University's policies on cheating and plagiarism. Any suspected cases of academic misconduct will be handled according to University regulations. More information can be found [here](https://depts.washington.edu/grading/pdf/AcademicResponsibility.pdf).  
 
-For this course, plagiarism is defined as figures and legends that are identical or eerily  similar to those of other students. You should absolutely work together, get advice and  tips from other students, and help each other (this is the essence of being a successful  and helpful scientist), but the final project must be your own work.  
+For this course, plagiarism is defined as figures and legends that are identical or eerily similar to those of other students. You should absolutely work together, get advice and tips from other students, and help each other (this is the essence of being a successful and helpful scientist), but the final project must be your own work.  
 
 ## Religious accommodation policy
 
-Washington state law requires that UW develop a policy for accommodation of student  absences or significant hardship due to reasons of faith or conscience, or for organized  religious activities. The UW’s policy, including more information about how to request an  accommodation, is available at Religious Accommodations Policy. Accommodations must be requested within the first two weeks of this course using the Religious Accommodations Request form.
+Washington state law requires that UW develop a policy for accommodation of student  absences or significant hardship due to reasons of faith or conscience, or for organized  religious activities. For more information, including instructions for requesting accommodations, see the [UW Religious Accommodations Policy](https://registrar.washington.edu/staff-faculty/religious-accommodations-policy/). Accommodations must be requested within the first two weeks of this course using the [Religious Accommodations Request form](https://registrar.washington.edu/students/religious-accommodations-request/).
 
 ## Disability accommodations
 
-To request academic accommodations due to a disability, please contact Disability Resources for Students, 448 Schmitz, (206)543-8924 (V/TTY). If you have a letter from Disability Resources for Students indicating that you have a disability which requires academic accommodations, please present the letter to the instructor so we can discuss the accommodations needed for this class.
+To request academic accommodations due to a disability, please contact Disability Resources for Students: 448 Schmitz, (206)543-8924 (V/TTY). If you have a letter from Disability Resources for Students indicating that you have a disability which requires academic accommodations, please present the letter to the instructor so we can discuss the accommodations needed for this class.
