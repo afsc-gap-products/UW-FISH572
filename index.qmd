@@ -18,17 +18,17 @@ link_repo <- "https://github.com/afsc-gap-products/UW-FISH572"
 
 ## Instructors
 
-[**Dr. Stan Kotwicki**](https://www.fisheries.noaa.gov/contact/stan-kotwicki), Groundfish Assessment Program Manager, Alaska Fisheries Science Center, NOAA. Stan.Kotwicki@noaa.gov
+[**Dr. Stan Kotwicki**](https://www.fisheries.noaa.gov/contact/stan-kotwicki), Groundfish Assessment Program Manager, Alaska Fisheries Science Center, NOAA. Stan.Kotwicki AT noaa.gov
 
-[**Dr. Allan Hicks**](https://www.iphc.int/staff/allan-hicks-ph-d/), Quantitative Scientist, International Pacific Halibut Commission. Allan.Hicks@iphc.int
+[**Dr. Allan Hicks**](https://www.iphc.int/staff/allan-hicks-ph-d/), Quantitative Scientist, International Pacific Halibut Commission. Allan.Hicks AT iphc.int
 
-[**Dr. Lewis Barnett**](https://lewisbarnett.wordpress.com/), Research Fish Biologist, Groundfish Assessment Program, Alaska Fisheries Science Center, NOAA. lewis.barnett@noaa.gov
+[**Dr. Lewis Barnett**](https://lewisbarnett.wordpress.com/), Research Fish Biologist, Groundfish Assessment Program, Alaska Fisheries Science Center, NOAA. Lewis.Barnett AT noaa.gov
 
 ## Class Teaching Assistants
 
 [**Dr. Sophia Wassermann**](https://sowasser.com/), Research Fish Biologist, Alaska Fisheries Science Center, NOAA. Sophia.Wassermann AT noaa.gov
 
-[**Emily Markowitz**](https://www.fisheries.noaa.gov/contact/emily-markowitz), Research Fish Biologist, Alaska Fisheries Science Center, NOAA. Emily.Markowtiz AT noaa.gov
+[**Emily Markowitz**](https://www.fisheries.noaa.gov/contact/emily-markowitz), Research Fish Biologist, Alaska Fisheries Science Center, NOAA. Emily.Markowitz AT noaa.gov
 
 ## Course Summary
 
@@ -37,7 +37,7 @@ The course covers the science and practice of fishery-independent surveys, the p
 This course is designed for students with a background in basic statistics, statistical modeling, and fisheries/wildlife science. It covers a wide range of topics, including:
 
  - **Survey Design**: Learn about various survey designs for different objectives, types of data collection, and the resulting data products.
- - **Data Analysis**: Gain practical skills in analyzing fisheries-independent survey data using both design and model-based methods.
+ - **Data Analysis**: Gain practical skills in analyzing fisheries-independent survey data using both design- and model-based methods.
  - **Current Topics**: Explore the latest developments and challenges in survey science, such as uncertainty, survey continuity, effort optimization, flexible survey design, and the use of statistical tools and new technology.
  - **Real-World Applications**: Understand the logistical challenges in implementing and managing fisheries-independent surveys, and how survey data products are used in fisheries research, assessment, and management advice.
  - **Career Opportunities**: Discover career paths in the field of research surveys.
