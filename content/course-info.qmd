@@ -85,7 +85,7 @@ Learn more about the UW [grading scale](https://grad.uw.edu/policies-procedures/
 
 ```{r grading-table}
 
-grading <- data.frame(
+data.frame(
   stringsAsFactors = FALSE,
            Percent = c("≥95","94","93","92","91",
                        "90","89","88","87","86","85","84","83","82",
@@ -97,10 +97,8 @@ grading <- data.frame(
                        "1.9","1.8","1.7","1.6- 0.0"),
             Letter = c("A",NA,"A-",NA,NA,NA,"B+",
                        NA,NA,NA,"B",NA,"B-","B-",NA,NA,"C+",NA,NA,
-                       NA,"C",NA,NA,NA,"E")
-)
-
-flextable::flextable(grading) |> 
+                       NA,"C",NA,NA,NA,"E") ) |> 
+  flextable::flextable(grading) |> 
   flextable::theme_zebra()  
 
 ```
@@ -123,7 +121,6 @@ googledrive::drive_download(
 ```
 
 ```{r syllabus-table}
-#| tbl-cap: Survey of products developed by GAP
 
 # Define a function to determine row colors based on the 'Category' column
 # This function takes the column values as input and returns a vector of colors
