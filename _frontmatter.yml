@@ -2,7 +2,7 @@ format:
   docx:
     toc: true
     toc-depth: 2
-    reference-doc: template.docx
+    reference-doc: content/template.docx
     always_allow_html: true
   titlepage-pdf:
     documentclass: scrbook
