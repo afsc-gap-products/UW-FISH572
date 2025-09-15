@@ -1,7 +1,7 @@
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-## Project:       Tfit index model to the simulated data
-## Author:       Primarily Lewis Barnett
-## Notes: Turn on 'outline' to see structure of code
+## Project:       fit index model to the simulated data
+## Author:        Primarily Lewis Barnett
+## Notes:         Turn on 'outline' to see structure of code
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Load packages ----------------------------------------------------------------
@@ -10,7 +10,7 @@ library(ggplot2) # install.packages("ggplot2")
 library(sdmTMB) # install.packages("sdmTMB")
 library(here) # install.packages("here")
 
-# load simulated data ----------------------------------------------------------
+# Load simulated data ----------------------------------------------------------
 sim_dat <- readRDS(here::here("coursework/simulations/sim_data/sim_dat_10.RDS"))
 
 # sample 100 locations from each year using simple random sampling
@@ -30,7 +30,7 @@ ggplot2::ggplot(sim_dat, aes(X, Y)) +
   ggplot2::scale_size_area() +
   ggplot2::coord_cartesian(expand = FALSE)
 
-# fit new model ----------------------------------------------------------------
+# Fit new model ----------------------------------------------------------------
 mesh <- sdmTMB::make_mesh(sim_dat_obs, 
                           xy_cols = c("X", "Y"), 
                           type = "cutoff_search", 
@@ -50,14 +50,14 @@ fit
 
 sanity(fit) # model checking
 
-# inspect model and fit, predict, get abundance index --------------------------
+# Inspect model and fit, predict, get abundance index --------------------------
 # following vignette :#https://pbs-assess.github.io/sdmTMB/articles/index-standardization.html
 
 # replicate grid for each year to make prediction grid
 grid <- readRDS(here::here("coursework/simulations/sim_data/grid_depth.RDS"))
 grid_yrs <- sdmTMB::replicate_df(grid, "year", unique(sim_dat$year))
 
-#predict
+# predict
 predictions <- stats::predict(fit, newdata = grid_yrs, return_tmb_object = TRUE)
 
 # compute index
