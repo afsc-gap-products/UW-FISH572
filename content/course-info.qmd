@@ -6,7 +6,8 @@ title: Course Information
 
 install.packages("flextable")
 library(flextable)
-# flextable::set_flextable_defaults(font.family = "Liberation Sans") # Arial
+install.packages("here")
+library(here)
 ```
 
 ## Lectures
@@ -109,7 +110,6 @@ data.frame(
 ```{r syllabus-dl, eval = FALSE, include = FALSE}
 library(googledrive)
 library(flextable)
-library(here)
 googledrive::drive_auth()
 2
 
