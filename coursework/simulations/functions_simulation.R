@@ -7,7 +7,7 @@
 #' dat <- data.frame(X=c(1,1,1,2,2,2,3,3,3),Y=c(1,2,3,1,2,3,1,2,3),eta=c(1:9))
 #' filledContourPlot.fn(dat, valueName="eta",nlevels=9)
 
-filledContourPlot.fn <- function(dat, valueName="eta.scaled",...) {
+filledContourPlot.fn <- function(dat, valueName="eta_scaled",...) {
   X <- as.numeric(names(table(dat$X)))
   Y <- as.numeric(names(table(dat$X)))
   
@@ -28,10 +28,7 @@ filledContourPlot.fn <- function(dat, valueName="eta.scaled",...) {
 }
 
 
-
-
-
-#' Function to draw a single random catchability from a gamma distribution with mean (mm) and varainnce (vv)
+#' Function to draw a single random catchability from a gamma distribution with mean (mm) and variance (vv)
 #' @author Allan Hicks, Stan Kotwicki
 #' @param mm mean of the distribution
 #' @param vv variance of the distribution
@@ -80,7 +77,6 @@ observationsLN.fn <- function(n, median, cv, catchabilityParams=list(mean=1,var=
 }
 
 
-
 #' samples simulated data from a grid of X and Y locations and applies observation error and catchability to produce a sample
 #' @description applies unbiased lognormal observation error and catchability to produce observed values
 #' @author Allan Hicks
@@ -96,7 +92,7 @@ observationsLN.fn <- function(n, median, cv, catchabilityParams=list(mean=1,var=
 #' catchabilityPars <- list(mean=1,var=0.01)
 #' sampleGrid.fn(xy, dat, obsCV, catchabilityPars)
 
-sampleGrid.fn <- function(xy, dat, obsCV, catchabilityPars,varName="eta.scaled") {
+sampleGrid.fn <- function(xy, dat, obsCV, catchabilityPars,varName="eta_scaled") {
   gridLocs <- paste(dat$X,dat$Y)
   sampLocs <- paste(xy$X,xy$Y)
   out <- dat[gridLocs%in%sampLocs,]
@@ -113,7 +109,7 @@ sampleGrid.fn <- function(xy, dat, obsCV, catchabilityPars,varName="eta.scaled")
 
 #load data (use the files with a suffix of 's')
 #eta is the true value
-#eta.scaled is the true value scaled to have the same mean as sim set 20
+#eta_scaled is the true value scaled to have the same mean as sim set 20
 #setwd("C:\\Users\\stan.kotwicki\\Work\\projects\\2022\\UW_class\\code\\Fish572-main\\Simulated Data-20221223T205153Z-001\\Simulated Data")
 dat <- readRDS(paste0("./Simulated Data-20221223T205153Z-001/Simulated Data/","sim_dat_1s.RDS"))
 dat.yr1 <- dat[dat$year==1,]
@@ -124,12 +120,8 @@ dat.yr1 <- dat[dat$year==1,]
 #plot locations (a grid of 100 X 100)
 plot(dat.yr1$X,dat.yr1$Y,pch=20,cex=0.5,xlab="X",ylab="Y",las=1)
 
-#plot depth contours
-filledContourPlot.fn(dat.yr1, valueName="depth", nlevels = 25,color.palette=colorRampPalette(c("skyblue", "blue4")))
-
-#plot eta.scaled
-filledContourPlot.fn(dat.yr1, valueName="eta.scaled", nlevels = 30,color.palette=colorRampPalette(c("darkseagreen1", "darkgreen")))
-
+#plot eta_scaled
+filledContourPlot.fn(dat.yr1, valueName="eta_scaled", nlevels = 30,color.palette=colorRampPalette(c("darkseagreen1", "darkgreen")))
 
 
 #############################################
@@ -149,7 +141,6 @@ catchabilityPars <- list(mean=1,var=0.0)
 sampleGrid.fn(xy, dat.yr1, obsCV, catchabilityPars)
 
 
-
 ####################################################
 # loop to show the difference between years for a specific simulated dataset
 #setwd("C:\\IPHC\\OneDrive - International Pacific Halibut Commission\\UW-SAFS\\Courses\\FISH572-Survey\\Simulations\\Data")
@@ -157,13 +148,11 @@ file=paste0("./Simulated Data-20221223T205153Z-001/Simulated Data/","sim_dat_1s.
 dat <- readRDS(file)
 for(yr in unique(dat$year)) {
   dat.yr<- dat[dat$year==yr,]
-  mean.eta=mean(dat.yr$eta.scaled)
-  filledContourPlot.fn(dat.yr, nlevels = 30,valueName="eta.scaled",zlim=c(0,max(dat$eta.scaled)),main=paste("Year", yr, file, "Mean.Eta", round(mean.eta,4)))
+  mean.eta=mean(dat.yr$eta_scaled)
+  filledContourPlot.fn(dat.yr, nlevels = 30,valueName="eta_scaled",zlim=c(0,max(dat$eta_scaled)),main=paste("Year", yr, file, "Mean.Eta", round(mean.eta,4)))
   #aa=locator(n=1)
   #if the margins are not right, close all graphics windows and try again
 }
-
-
 
 
 ####################################################
@@ -175,15 +164,9 @@ for(ii in 1:20) {
   file=paste0("./Simulated Data-20221223T205153Z-001/Simulated Data/","sim_dat_",ii,"s.RDS")
   dat <- readRDS(file)
   dat.yr1 <- dat[dat$year==2,]
-  mean.eta=mean(dat.yr1$eta.scaled)
-  filledContourPlot.fn(dat.yr1, nlevels = 30,valueName="eta.scaled",zlim=c(0,120),
+  mean.eta=mean(dat.yr1$eta_scaled)
+  filledContourPlot.fn(dat.yr1, nlevels = 30,valueName="eta_scaled",zlim=c(0,120),
                        main=ii)
   aa=locator(n=1)
   #if the margins are not right, close all graphics windows and try again
 }
-
-
-
-
-
-
