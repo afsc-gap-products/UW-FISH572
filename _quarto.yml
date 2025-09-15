@@ -46,6 +46,7 @@ book:
   chapters:
     - index.qmd
     - content/course-info.qmd
+    - content/coursework.qmd
     - content/faq.qmd
     - content/resources.qmd
     - content/references.qmd
