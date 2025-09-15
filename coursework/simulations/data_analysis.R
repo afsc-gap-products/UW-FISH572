@@ -61,10 +61,12 @@ grid_yrs <- sdmTMB::replicate_df(grid, "year", unique(sim_dat$year))
 predictions <- stats::predict(fit, newdata = grid_yrs, return_tmb_object = TRUE)
 
 # compute index
-index <- get_index(predictions, area = 1, bias_correct = TRUE)
+index <- sdmTMB::get_index(predictions, area = 1, bias_correct = TRUE)
 
 # plot index
-ggplot(index, aes(year, est)) + geom_line() +
-  geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.4) +
-  xlab('Year') + ylab('Biomass estimate (kg)')
+ggplot2::ggplot(index, aes(year, est)) + 
+  ggplot2::geom_line() +
+  ggplot2::geom_ribbon(aes(ymin = lwr, ymax = upr), alpha = 0.4) +
+  ggplot2::xlab('Year') + 
+  ggplot2::ylab('Biomass estimate (kg)')
 
