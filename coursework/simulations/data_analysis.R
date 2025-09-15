@@ -37,7 +37,7 @@ mesh <- sdmTMB::make_mesh(sim_dat_obs,
                           n_knots = 50)
 
 fit <- sdmTMB::sdmTMB(
-  formula = observed ~ 0 + as.factor(year), # or year + depth_scaled if including covariate
+  formula = observed ~ 0 + as.factor(year), 
   data = sim_dat_obs,
   mesh = mesh,
   time = "year",
