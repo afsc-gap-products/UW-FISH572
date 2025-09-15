@@ -109,6 +109,7 @@ data.frame(
 ```{r syllabus-dl, eval = FALSE, include = FALSE}
 library(googledrive)
 library(flextable)
+library(here)
 googledrive::drive_auth()
 2
 
