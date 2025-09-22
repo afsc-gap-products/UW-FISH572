@@ -1,5 +1,9 @@
 # [UW FISH 572](https://github.com/afsc-gap-products/UW-FISH572) <img src="https://avatars.githubusercontent.com/u/91760178?s=96&amp;v=4" alt="Logo." align="right" width="139" height="139"/>
 
+"Principles and applications of fisheries-independent surveys" is a 4-credit course (FISH 572) that delves into the importance of fisheries-independent surveys as a cornerstone for fisheries stock assessment and ecosystem research.
+
+> See this repository for the course website. The sibling repository https://github.com/afsc-gap-products/UW-FISH572-coursework houses the coursework for the course=. 
+
 *This code is primarally maintained by:* 
 
 **Emily Markowitz** (Emily.Markowitz AT noaa.gov;
@@ -17,11 +21,11 @@ Seattle, WA 98195
 
 If you see that the data, product, or metadata can be improved, you are
 invited to create a [pull
-request](https://github.com/afsc-gap-products/gap_products/pulls),
+request](https://github.com/afsc-gap-products/UW-FISH572/pulls),
 [submit an issue to the GitHub
 organization](https://github.com/afsc-gap-products/data-requests/issues),
 or [submit an issue to the code’s
-repository](https://github.com/afsc-gap-products/gap_products/issues).
+repository](https://github.com/afsc-gap-products/UW-FISH572/issues).
 
 ## Run notes
 
