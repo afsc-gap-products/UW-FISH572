@@ -2,10 +2,10 @@
 title: Course Work
 ---
 
-This page provides an overview of the different coursework offered in the course, including descriptions, objectives, and expectations for each component
+This page provides an overview of the different coursework offered in the course, including descriptions, objectives, and expectations for each component. These materials can be found in a sibling repository https://github.com/afsc-gap-products/UW-FISH572-coursework. This repository includes [coursework](https://github.com/afsc-gap-products/UW-FISH572-coursework/tree/main/coursework) and folders for [student to share, store, and submit assignments](https://github.com/afsc-gap-products/UW-FISH572-coursework/tree/main/studentwork). 
 
 ## Simulations
 
-Simulations in fisheries survey research are crucial because they allow scientists to test and refine survey designs, evaluate uncertainty and bias, and improve the reliability and efficiency of data used for sustainable fishery management. An example that we will use to explore this in class can be found [here](`r here::here("coursework/simulations/")`). 
+Simulations in fisheries survey research are crucial because they allow scientists to test and refine survey designs, evaluate uncertainty and bias, and improve the reliability and efficiency of data used for sustainable fishery management. An example that we will use to explore this in class can be found [here](https://github.com/afsc-gap-products/UW-FISH572-coursework/tree/main/coursework/simulations). 
 
 
