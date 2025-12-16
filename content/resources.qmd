@@ -20,4 +20,6 @@ source("https://raw.githubusercontent.com/afsc-gap-products/citations/main/cite/
 
 ## International Pacific Halibut Commission 
 
-*[Info coming soon!]*
+-   [IPHC Fishery-Independent Monitoring](https://www.iphc.int/research/fishery-independent-monitoring/)
+-   [IPHC Fishery-Independent Setline Survey (FISS)](https://www.iphc.int/research/fishery-independent-setline-survey-fiss/)
+-   [IPHC FISS data products](https://www.iphc.int/data/fishery-independent-setline-survey-fiss/)
