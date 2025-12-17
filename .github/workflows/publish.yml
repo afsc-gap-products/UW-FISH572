@@ -20,7 +20,11 @@ jobs:
             libfontconfig1-dev \
             libmagick++-dev \
             libgl1-mesa-dev \
-            libglu1-mesa-dev
+            libglu1-mesa-dev \
+            libglpk-dev \
+            libcurl4-openssl-dev \
+            libxml2-dev \
+            pandoc
       
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
