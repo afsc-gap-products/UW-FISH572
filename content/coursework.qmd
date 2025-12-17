@@ -6,21 +6,25 @@ This page provides an overview of the graded assignments in the course. More spe
 
 
 
-1. Project plan - 1 page and 5 min presentation (10% weight)
-DUE: Presentation January 14
+### Project plan - 1 page and 5 min presentation (10% weight)
+**DUE: Presentation January 14**
+
 Within the first days of the quarter students will be responsible for planning a research project. Students can propose a project of their choice as long as the data for the project is of survey origin. Project plans should be discussed with and accepted by instructors. Once accepted students will be responsible for writing a 1 page project plan and for presentation of the plan during the class. Instructors and students will provide feedback on the plan during the class discussion. 
 
-2. Literature review 20-30 min presentation on the survey topic (20%)
-DUE: Presentation February 9
+### Literature review 20-30 min presentation on the survey topic (20%)
+**DUE: Presentation February 9**
+
 Students will be responsible for presentations on relevant literature and leading subsequent discussion. Literature review presentations will be conducted on Feb 9 or later depending on the number of presentations. Papers for this literature review should be relevant to the final  project. Students are advised to discuss potential papes for this review with instructors, but students will be given the opportunity to propose a paper(s) of their choice for presentations. Literature review presentation will be followed by Q & A session and in-class discussion on the presented topics
 
-3. Survey data analysis (20%)
-DUE: 16 February
+### Survey data analysis (20%)
+**DUE: Paper February 16**
+
 Simulations are crucial in fisheries survey research because they allow scientists to test and refine survey designs, evaluate uncertainty and bias, and improve the reliability and efficiency of data used for sustainable fishery management. An example that we will use to explore this in class can be found [here](https://github.com/afsc-gap-products/UW-FISH572-coursework/tree/main/coursework/simulations).
 This assignment will involve estimation of standard design-based and model-based survey data products (from provided “true distributions”) or could involve custom analysis of survey data used for class projects. Format of the analysis presentation will be open and can include analysis description and graphs or tables. Analysis will be graded separately, but can be included as part of the final paper or as an independent document. Data analysis will be due at the end of week 6 of the course.  
 
-4. Final project - up to 5-8 pages and 20-30 min presentation (50%)
-Due: Presentation March 4-11; Paper March 13
+### Final project - up to 5-8 pages and 20-30 min presentation (50%)
+**Due: Presentation March 4-11; Paper March 13**
+
 Final project results will be presented in the form of 20-30 minutes in-class PPT presentation. Students will receive feedback from instructors and time for in-class discussion will be provided. Presentations will occur during the last 2 weeks of the course. Final 5 - 8 page paper will be due at the end of week 10 and graded during the week of finals.
 
 Example ideas for final projects are provided below.
