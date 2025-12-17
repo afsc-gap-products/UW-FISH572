@@ -19,8 +19,8 @@ jobs:
             libfreetype6-dev \
             libfontconfig1-dev \
             libmagick++-dev \
-            libcurl4-openssl-dev \
-            libxml2-dev
+            libgl1-mesa-dev \
+            libglu1-mesa-dev
       
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
