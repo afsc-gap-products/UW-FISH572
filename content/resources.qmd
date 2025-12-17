@@ -23,3 +23,12 @@ source("https://raw.githubusercontent.com/afsc-gap-products/citations/main/cite/
 -   [IPHC Fishery-Independent Monitoring](https://www.iphc.int/research/fishery-independent-monitoring/)
 -   [IPHC Fishery-Independent Setline Survey (FISS)](https://www.iphc.int/research/fishery-independent-setline-survey-fiss/)
 -   [IPHC FISS data products](https://www.iphc.int/data/fishery-independent-setline-survey-fiss/)
+
+
+## Northwest Fishery Science Center Surveys 
+
+-   [West Coast Bottom Trawl Survey](https://www.fisheries.noaa.gov/west-coast/science-data/us-west-coast-groundfish-bottom-trawl-survey)
+-   [Southern California Shelf Rockfish Hook and Line Survey](https://www.fisheries.noaa.gov/west-coast/science-data/southern-california-shelf-rockfish-hook-and-line-survey)
+-   [Joint U.S.-Canada Integrated Ecosystem and Pacific Hake Acoustic Trawl Survey](https://www.fisheries.noaa.gov/west-coast/science-data/joint-us-canada-integrated-ecosystem-and-pacific-hake-acoustic-trawl-survey)
+-   [FRAM Data Warehouse](https://www.webapps.nwfsc.noaa.gov/data/map)
+
