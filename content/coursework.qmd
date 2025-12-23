@@ -14,12 +14,12 @@ Within the first days of the quarter students will be responsible for planning a
 ### Literature review 20-30 min presentation on the survey topic (20%) {.unnumbered}
 **DUE: Presentation February 9**
 
-Students will be responsible for presentations on relevant literature and leading subsequent discussion. Literature review presentations will be conducted on Feb 9 or later depending on the number of presentations. Papers for this literature review should be relevant to the final  project. Students are advised to discuss potential papes for this review with instructors, but students will be given the opportunity to propose a paper(s) of their choice for presentations. Literature review presentation will be followed by Q & A session and in-class discussion on the presented topics
+Students will be responsible for presentations on relevant literature and leading subsequent discussion. Literature review presentations will be conducted on Feb 9 or later depending on the number of presentations. Papers for this literature review should be relevant to the final  project. Students are advised to discuss potential papers for this review with instructors, but students will be given the opportunity to propose a paper(s) of their choice for presentations. Literature review presentation will be followed by Q & A session and in-class discussion on the presented topics
 
 ### Survey data analysis (20%) {.unnumbered}
 **DUE: Paper February 16**
 
-Simulations are crucial in fisheries survey research because they allow scientists to test and refine survey designs, evaluate uncertainty and bias, and improve the reliability and efficiency of data used for sustainable fishery management. An example that we will use to explore this in class can be found [here](https://github.com/afsc-gap-products/UW-FISH572-coursework/tree/main/coursework/simulations).
+Simulations are crucial in fisheries survey research because they allow scientists to test and refine survey designs, evaluate uncertainty and bias, and improve the reliability and efficiency of data used for sustainable fishery management. An example that we will use to explore this in class can be found [here](https://github.com/afsc-gap-products/UW-FISH572-coursework/blob/main/simulationDescription.pdf).
 This assignment will involve estimation of standard design-based and model-based survey data products (from provided “true distributions”) or could involve custom analysis of survey data used for class projects. Format of the analysis presentation will be open and can include analysis description and graphs or tables. Analysis will be graded separately, but can be included as part of the final paper or as an independent document. Data analysis will be due at the end of week 6 of the course.  
 
 ### Final project - up to 5-8 pages and 20-30 min presentation (50%) {.unnumbered}
