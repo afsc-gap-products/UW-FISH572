@@ -4,7 +4,7 @@
 
 > See this repository for the course website. The sibling repository https://github.com/afsc-gap-products/UW-FISH572-coursework houses the coursework for the course=. 
 
-*This code is primarally maintained by:* 
+*This code is primarily maintained by:* 
 
 **Emily Markowitz** (Emily.Markowitz AT noaa.gov;
 [@EmilyMarkowitz-NOAA](https://github.com/EmilyMarkowitz-NOAA))
