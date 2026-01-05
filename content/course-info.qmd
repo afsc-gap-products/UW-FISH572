@@ -10,7 +10,7 @@ install.packages("here")
 library(here)
 ```
 
-## Lectures 
+## Lectures Timing
 
 Mondays and Wednesdays 9:00-10:50 am: In person in room FSH 213.
 
@@ -39,7 +39,13 @@ This class is intended to provide useful skills for your ongoing research.
 
 ## Course Material
 
-No required text. Course materials will be selected from journals, books, and other published scientific literature. These will be available as PDFs through the course website. Materials will be divided into required and optional. 
+[**Course materials**](https://drive.google.com/drive/folders/1ZHfkng-MSKk2xxwBLQf5Bu2qSXhW8TNO?usp=drive_link) will be selected from journals, books, and other published scientific literature. These will be available as PDFs through the [course google drive](https://drive.google.com/drive/folders/1ZHfkng-MSKk2xxwBLQf5Bu2qSXhW8TNO?usp=drive_link) and listed in the [lecture plan section](#lecture-plan) below. 
+
+[**Lectures**](https://drive.google.com/drive/folders/1sZ1BUtvfHT0Rmxhyju3ETrlSMEgvZiDY) from each day's class will be posted in the [course google drive](https://drive.google.com/drive/folders/1sZ1BUtvfHT0Rmxhyju3ETrlSMEgvZiDY). 
+
+[**GitHub**](https://github.com/) will be used in this course. If you have a user name you like us to reference or need help creating a GitHub username, please fill out this [GitHub Username Collection](https://forms.gle/Fd7e2JYRCD846DqM7) google form. 
+
+[**Feedback**](https://forms.gle/RhXHq6yDfKHdSntE9) makes this course better! Throughout the quarter, please let us know how we are doing and if we can answer any questions about the course so far. Use this [Student Interest and Questions](https://forms.gle/RhXHq6yDfKHdSntE9) google form to anonymously or directly reach out to the instructors. 
 
 ## Course Format
 
@@ -103,7 +109,7 @@ data.frame(
 
 ```
 
-## Lecture plan 
+## Lecture plan{#lecture-plan}
 
 [Please fill out a class evaluation!](https://uw.iasystem.org/survey/268860)
 
