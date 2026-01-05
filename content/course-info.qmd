@@ -111,7 +111,9 @@ data.frame(
 
 ## Lecture plan{#lecture-plan}
 
-[Please fill out a class evaluation!](https://uw.iasystem.org/survey/268860)
+[**Lectures**](https://drive.google.com/drive/folders/1sZ1BUtvfHT0Rmxhyju3ETrlSMEgvZiDY) from each day's class will be posted in the [course google drive](https://drive.google.com/drive/folders/1sZ1BUtvfHT0Rmxhyju3ETrlSMEgvZiDY). 
+
+[Please fill out a class evaluation at the end of the term!](https://uw.iasystem.org/survey/268860)
 
 ```{r syllabus-dl, eval = FALSE, include = FALSE}
 library(googledrive)
