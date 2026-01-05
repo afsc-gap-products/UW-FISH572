@@ -10,7 +10,7 @@ install.packages("here")
 library(here)
 ```
 
-## Lectures
+## Lectures 
 
 Mondays and Wednesdays 9:00-10:50 am: In person in room FSH 213.
 
