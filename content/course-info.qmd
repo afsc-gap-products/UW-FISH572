@@ -139,8 +139,10 @@ color_by_category <- function(category_values) {
   return(colors)
 }
 
-read.csv(file = here::here("content/syllabus.csv")) |> 
-  dplyr::select(-Readings0) |> 
+tbl <- read.csv(file = here::here("content/syllabus.csv")) 
+
+tbl[names(tbl) != "Readings0"] |> 
+#  dplyr::select(-Readings0) |> # I dont want to use the dplyr function because it is a MESS for GitHub actions, so here is a quick work around
   flextable::flextable() |>
   flextable::merge_v("Week") |> 
   flextable::merge_h(, part = "body") |> 
