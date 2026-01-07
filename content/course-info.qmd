@@ -140,6 +140,7 @@ color_by_category <- function(category_values) {
 }
 
 read.csv(file = here::here("content/syllabus.csv")) |> 
+  dplyr::select(-Readings0) |> 
   flextable::flextable() |>
   flextable::merge_v("Week") |> 
   flextable::merge_h(, part = "body") |> 
