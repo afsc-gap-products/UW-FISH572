@@ -2,7 +2,7 @@
 
 "Principles and applications of fisheries-independent surveys" is a 4-credit course (FISH 572) that delves into the importance of fisheries-independent surveys as a cornerstone for fisheries stock assessment and ecosystem research.
 
-> See this repository for the course website. The sibling repository https://github.com/afsc-gap-products/UW-FISH572-coursework houses the coursework for the course=. 
+> See this repository for the course website. The sibling repository https://github.com/afsc-gap-products/UW-FISH572-coursework houses the coursework for the course. 
 
 *This code is primarily maintained by:* 
 
