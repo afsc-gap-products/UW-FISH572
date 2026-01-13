@@ -21,7 +21,7 @@ Guest Lectures: Kayla Ualesi (IPHC), Ebett Siddon (NOAA)","Required:
    - Read parts that refer to the survey data products and use of survey data in assessment
 - Cochran. 1977. Sampling techniques (3rd ed.) 
    - Feel free to omit proofs. Pay attention to considerations when designing stratified random survey.
-- Review webpage: https://apps-afsc.fisheries.noaa.gov/Plan_Team/2022/assessments.htm
+- https://apps-afsc.fisheries.noaa.gov/Plan_Team/2022/assessments.htm
 
 Skim below to explore differences between design- and model-based estimation:
 - Berg, Nielsen, & Kristensen, 2014. Evaluation of alternative age-based methods for estimating relative abundance from survey data in relation to assessment models.
@@ -54,14 +54,25 @@ Brodie, S.J., Thorson, J.T., Carroll, G., Hazen, E.L., Bograd, S., Haltuch, M.A.
 Carroll, G., Holsman, K.K., Brodie, S., Thorson, J.T., Hazen, E.L., Bograd, S.J., Haltuch, M.A., Kotwicki, S., Samhouri, J., Spencer, P. and Willis‐Norton, E., 2019. A review of methods for quantifying spatial predator–prey overlap. Global Ecology and Biogeography, 28(11), pp.1561-1577.
 Kotwicki, S., & Lauth, R. R. (2013). Detecting temporal trends and environmentally‐driven changes in the spatial distribution of ground‐ fishes and crabs on the eastern Bering Sea shelf. Deep‐Sea Research Part II: Topical Studies in Oceanography, 94, 231–243. https://doi. org/10.1016/j.dsr2.2013.03.017."
 2,Jan 12,3,Hicks (Markowitz),"Design principles, sampling designs, logistics and estimation.  
-Guest presentation. Case study for implementing survey design (Zack Oyafuso).",,
+Guest presentation. Case study for implementing survey design (Zack Oyafuso).","Optional:
+- Jason Conner, Stan Kotwicki, Kotaro Ono, and Lewis A.K. Barnett. 2025. The sensitivity of fisheries-independent survey indices to decisions of sampling design and intensity and the mitigation of biased precision estimators for systematic sampling. Canadian Journal of Fisheries and Aquatic Sciences. 82: 1-22. https://doi.org/10.1139/cjfas-2024-0405
+- Cochran, W.G. (1977). Sampling Techniques (3rd ed.). John Wiley & Sons, New York
+- Gunderson, D.R. (1993). Surveys of Fisheries Resources. John Wiley & Sons, New York, NY, 248 pages
+- Hankin, D. G., Mohr, M. S., & Newman, K. B. (2019). Sampling theory: For the ecological and natural resource sciences. Oxford University Press. https://doi.org/10.1093/oso/9780198815792.001.0001. 
+- Thompson, S.K. (2012) Sampling. 3rd Edition, Wiley, Hoboken.
+https://doi.org/10.1002/9781118162934
+
+- Oyafuso, Z. S., Barnett, L. A. K., Siple, M. C., & Kotwicki, S. (2022). A flexible approach to optimizing the Gulf of Alaska groundfish bottom trawl survey design for abundance estimation.
+- Oyafuso, Z. S., Barnett, L. A., & Kotwicki, S. (2021). Incorporating spatiotemporal variability in multispecies survey design optimization addresses trade-offs in uncertainty. ICES Journal of Marine Science, 78(4), 1288-1300.
+
+",
 2,Jan 14,4,Barnett (Markowitz),"Student presentations on project plan: 5 minutes presentation, 5-10 minutes for discussion.
 Some general topics
 a. Design of a new survey from the ground up.
 b. Analysis of existing survey data (e.g. present survey data product and its uncertainty, use of survey data in assessments, role of uncertainty in assessment).
 c. Literature review of a survey topic under active research.
 
-Examples of literature overview. Opportunity for students to ask questions about class projects.",,
+Examples of literature overview. Opportunity for students to ask questions about class projects.",Install software for class using this installation guide: https://github.com/afsc-gap-products/UW-FISH572-coursework/blob/main/coursework/simulations/install_model_based_software.pdf,
 3,Jan 19,,Martin Luther King Jr. Observed Holiday,Martin Luther King Jr. Observed Holiday,,
 3,Jan 21,5,Kotwicki (Markowitz),"Overview of current hot topics in survey science: Uncertainty (observation error), Survey continuity (flexibility and catchability), multispecies optimisation, flexible survey design, model-based estimation of survey data products, simulations, statistical tools and new technology. Combining surveys. Absolute indices of abundance (catchability). Changes in technology affect continuity but also improve estimates. Using observation from fishing vessels.
 
@@ -104,7 +115,10 @@ Guest Lectures: Ray Webster, Sophia Wassermann",,
 4,Jan 28,7,Hicks (Wassermann),"General considerations for using survey data in stock assessments and a few examples from recent assessments. 
 Guest Lecture: Ian Stewart (IPHC)",,
 5,Feb 2,8,Barnett (Markowitz),"Model-based approaches for standardizing both abundance and compositional data. 
-Guest Lecture: Eric Ward (NWFSC)",,
+Guest Lecture: Eric Ward (NWFSC)","Required: 
+Anderson, S. C., Ward, E. J., English, P. A., & Barnett, L. A. (2022). sdmTMB: an R package for fast, flexible, and user-friendly generalized linear mixed effects models with spatial and spatiotemporal random fields. BioRxiv, 2022-03. https://doi.org/10.1101/2022.03.24.485545
+Optional:
+",
 5,Feb 4,9,Barnett (Wassermann),Student data simulation and analysis with design- and model-based approaches,,
 6,Feb 9,10,Kotwicki (Markowitz),Student Led Literature Review (20min/10min),,
 6,Feb 11,11,Kotwicki (Wassermann),"Explore total variance of a survey, sources of error, estimation methods, minimizing error, and sampling effort optimization. Survey design planning in a changing environment.",,
