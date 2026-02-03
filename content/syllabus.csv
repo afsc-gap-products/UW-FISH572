@@ -109,21 +109,27 @@ Rooper, C.N., Williams, K., Towler, R.H., Wilborn, R. and Goddard, P., 2020. Est
 Kotwicki, S., Ressler, P. H., Ianelli, J. N., Punt, A. E., & Horne, J. K. (2018). Combining data from bottom trawl and acoustic surveys to estimate an index of abundance for semipelagic species. Canadian Journal of Fisheries and Aquatic Sciences, 75, 60–71. https://doi.org/10.1139/ cjfas‐2016‐0362
 Walline, P.D., 2007. Geostatistical simulations of eastern Bering Sea walleye pollock spatial distributions, to estimate sampling precision. ICES Journal of Marine Science, 64(3), pp.559-569.
 Kilfoil, J.P., Rodriguez-Pinto, I., Kiszka, J.J., Heithaus, M.R., Zhang, Y., Roa, C.C., Ailloud, L.E., Campbell, M.D. and Wirsing, A.J., 2020. Using unmanned aerial vehicles and machine learning to improve sea cucumber density estimation in shallow habitats. ICES Journal of Marine Science."
-4,Jan 26,6,Hicks (Wassernann),"Examples of combining surveys into one platform and/or combining different data types across platforms to improve survey products. Combining acoustic/trawl data. Calibrating a longline survey to trawl survey observations.
+4,Jan 26,6,Hicks (Wassermann),"Examples of combining surveys into one platform and/or combining different data types across platforms to improve survey products. Combining acoustic/trawl data. Calibrating a longline survey to trawl survey observations.
 Main topics: changes to survey, calibration, scientific and legal process. 
 Guest Lectures: Ray Webster, Sophia Wassermann",,
 4,Jan 28,7,Hicks (Wassermann),"General considerations for using survey data in stock assessments and a few examples from recent assessments. 
 Guest Lecture: Ian Stewart (IPHC)",,
 5,Feb 2,8,Barnett (Markowitz),"Model-based approaches for standardizing both abundance and compositional data. 
 Guest Lecture: Eric Ward (NWFSC)","Required: 
-Anderson, S. C., Ward, E. J., English, P. A., & Barnett, L. A. (2022). sdmTMB: an R package for fast, flexible, and user-friendly generalized linear mixed effects models with spatial and spatiotemporal random fields. BioRxiv, 2022-03. https://doi.org/10.1101/2022.03.24.485545
+-Anderson, S. C., Ward, E. J., English, P. A., & Barnett, L. A. (2022). sdmTMB: an R package for fast, flexible, and user-friendly generalized linear mixed effects models with spatial and spatiotemporal random fields. BioRxiv, 2022-03. https://doi.org/10.1101/2022.03.24.485545
+
 Optional:
+-Shelton, A.O., Thorson, J.T., Ward, E.J. and Feist, B.E., 2014. Spatial semiparametric models improve estimates of species abundance and distribution. Canadian Journal of Fisheries and Aquatic Sciences, 71(11), pp.1655-1666.
+-Thorson, J.T., Shelton, A.O., Ward, E.J. and Skaug, H.J., 2015. Geostatistical delta-generalized linear mixed models improve precision for estimated abundance indices for West Coast groundfishes. ICES Journal of Marine Science, 72(5), pp.1297-1310.
+-Maunder, M.N. and Punt, A.E. 2004. Standardizing Catch and Effort Data: A Review of Recent Approaches. Fisheries Research 70(2-3): 141-159. https://www.sciencedirect.com/science/article/abs/pii/S0165783604001638
+-Thorson, J.T. and Haltuch, M.A., 2019. Spatiotemporal analysis of compositional data: increased precision and improved workflow using model-based inputs to stock assessment. Canadian Journal of Fisheries and Aquatic Sciences, 76(3), pp.401-414.
+-Commander CJC, Barnett LAK, Ward EJ, Anderson SC, Essington TE. The shadow model: how and why small choices in spatially explicit species distribution models affect predictions. PeerJ. 2022 Feb 14;10:e12783. doi: 10.7717/peerj.12783.
 ",
 5,Feb 4,9,Barnett (Wassermann),Student data simulation and analysis with design- and model-based approaches,,
 6,Feb 9,10,Kotwicki (Markowitz),Student Led Literature Review (20min/10min),,
 6,Feb 11,11,Kotwicki (Wassermann),"Explore total variance of a survey, sources of error, estimation methods, minimizing error, and sampling effort optimization. Survey design planning in a changing environment.",,
 7,Feb 16,,President’s Day Observed Holiday,President’s Day Observed Holiday (Survey Data Analysis due),,
-7,Feb 18,12,Hicks (Wassermann),"Acoustic Techniques for Fishery and Ecosystem Surveys
+7,Feb 18,12,Hicks (Markowitz),"Acoustic Techniques for Fishery and Ecosystem Surveys
 Guest Lecture: John Horne (UW/SAFS)
 
 Engaging Industry 
