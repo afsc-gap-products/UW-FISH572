@@ -7,10 +7,12 @@ name: Render and Publish
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2 
+        uses: actions/checkout@v4
 
+      # ---------- System deps ----------
       - name: Install system dependencies
         run: |
           sudo apt-get update
@@ -25,40 +27,43 @@ jobs:
             libcurl4-openssl-dev \
             libxml2-dev \
             pandoc
-      
+
+      # ---------- R ----------
       - name: Set up R
+        id: setup-r
         uses: r-lib/actions/setup-r@v2
 
-#      - name: Install packages
-#        run: Rscript -e 'install.packages(c("rmarkdown", "knitr", "flextable", "dplyr", "tinytex", "remotes", "here", "yaml", "gdtools"))' # if not using renv
+      # ---------- renv ----------
+      - name: Restore renv cache
+        uses: actions/cache@v3
+        with:
+          path: renv/library
+          key: renv-${{ runner.os }}-${{ steps.setup-r.outputs.r-version }}-${{ hashFiles('renv.lock') }}
 
-      - name: Restore R package manager
-        uses: r-lib/actions/setup-renv@v2 # Installs packages from renv lockfile
-        
+      - name: Install R dependencies
+        uses: r-lib/actions/setup-renv@v2
+
+      # ---------- Quarto ----------
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          # To install LaTeX to build PDF book 
-          tinytex: true 
-          # uncomment below and fill to pin a version
-          # version: 0.9.600
-      
-      # add software dependencies here
+          tinytex: true
 
-      - name: Publish to GitHub Pages (and render)
+      # ---------- IMPORTANT: render separately ----------
+      - name: Render site
+        run: quarto render --no-cache
+
+      # ---------- Publish only ----------
+      - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          render: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    # - name: Install TeX Live with fonts
-    #   run: sudo apt-get update && sudo apt-get install -y texlive-fonts-extra texlive-xetex
-    #   
+      # fonts last (not needed for render hashing)
       - name: Install Microsoft core fonts
         run: |
           sudo apt-get update
           sudo apt-get install -y ttf-mscorefonts-installer
-
-      # - name: Refresh font cache
-      #   run: sudo fc-cache -f -v

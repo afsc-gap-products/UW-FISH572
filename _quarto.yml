@@ -108,3 +108,6 @@ filters:
 metadata-files:
   - _frontmatter.yml
  
+env:
+  QUARTO_EXECUTE_FREEZE: false
+  
