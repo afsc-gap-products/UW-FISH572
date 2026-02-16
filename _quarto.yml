@@ -82,7 +82,8 @@ execute:
   comment: false
   warning: false
   code-overflow: wrap
-  # freeze: auto
+  freeze: false
+  cache: false
   
 format:
   titlepage-pdf:
