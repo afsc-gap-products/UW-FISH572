@@ -5,7 +5,9 @@ title: Survey Resources
 ## AFSC Grounfish Bottom Trawl Survey
 
 ```{r source-current-tm}
-source("https://raw.githubusercontent.com/afsc-gap-products/citations/main/cite/current_data_tm.r") # srvy_cite 
+# source("https://raw.githubusercontent.com/afsc-gap-products/citations/main/cite/current_data_tm.r") # srvy_cite 
+source("R/current_data_tm.R", local = TRUE)
+
 ```
 
 -   [Groundfish Assessment Program Bottom Trawl Surveys](https://www.fisheries.noaa.gov/alaska/science-data/groundfish-assessment-program-bottom-trawl-surveys)

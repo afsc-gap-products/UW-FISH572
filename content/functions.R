@@ -20,6 +20,12 @@ write.table(x = readLines(con = "https://raw.githubusercontent.com/afsc-gap-prod
             col.names = FALSE,
             quote = FALSE)
 
+write.table(x = readLines(con = "https://raw.githubusercontent.com/afsc-gap-products/citations/main/cite/current_data_tm.r"),
+            file = "./content/current_data_tm.r",
+            row.names = FALSE,
+            col.names = FALSE,
+            quote = FALSE)
+
 # Project root -----------------------------------------------------------------
 # project_root <- function() {
 #   normalizePath(Sys.getenv("QUARTO_PROJECT_ROOT", "."))
