@@ -127,7 +127,29 @@ Optional:
 ",
 5,Feb 4,9,Barnett (Wassermann),Student data simulation and analysis with design- and model-based approaches,,
 6,Feb 9,10,Kotwicki (Markowitz),Student Led Literature Review (20min/10min),,
-6,Feb 11,11,Kotwicki (Wassermann),"Explore total variance of a survey, sources of error, estimation methods, minimizing error, and sampling effort optimization. Survey design planning in a changing environment.",,
+6,Feb 11,11,Kotwicki (Wassermann),"Explore total variance of a survey, sources of error, estimation methods, minimizing error, and sampling effort optimization. Survey design planning in a changing environment.","Required reading:
+Kotwicki, S. and Ono, K., 2019. The effect of random and density‐dependent variation in sampling efficiency on variance of abundance estimates from fishery surveys. Fish and Fisheries, 20:760-774.
+
+Skim through:
+Smith, S.J., 1997. Bootstrap confidence limits for groundfish trawl survey estimates of mean
+abundance. Canadian Journal of Fisheries and Aquatic Sciences, 54(3), pp.616-630.
+
+Berg, C.W., Nielsen, A. and Kristensen, K., 2014. Evaluation of alternative age-based methods forestimating relative abundance from survey data in relation to assessment models.
+
+Thorson, J. T., Shelton, A. O., Ward, E. J., &amp; Skaug, H. J. (2015). Geostatistical delta‐generalized linear mixed models improve precision for estimated abundance indices for West Coast groundfishes.
+
+Thorson, J..T. 2019 Guidance for decisions using the Vector Autoregressive Spatio-Temporal (VAST) package in stock, ecosystem, habitat and climate assessments. Fisheries Research, 2014, 143-161.
+
+Francis, C.R., Hurst, R.J. and Renwick, J.A., 2003. Quantifying annual variation in catchability for commercial and research fishing. Fishery Bulletin, 101(2), pp.293-304.
+
+Optional reading:
+Taylor Approximation and the Delta Method (wherever)
+
+Shao, J.,1989.The efficiency and consistency of approximations to the jackknife variance 
+estimators. J.Am. Stat. Assoc. 84,114.
+
+Stewart, I.J. and Hamel, O.S., 2014. Bootstrapping of sample sizes for length-or age-composition data used in stock assessments. Canadian Journal of Fisheries and Aquatic Sciences, 71(4), pp.581-588.
+",
 7,Feb 16,,President’s Day Observed Holiday,President’s Day Observed Holiday (Survey Data Analysis due),,
 7,Feb 18,12,Hicks (Markowitz),"Acoustic Techniques for Fishery and Ecosystem Surveys
 Guest Lecture: John Horne (UW/SAFS)
@@ -135,10 +157,14 @@ Guest Lecture: John Horne (UW/SAFS)
 Engaging Industry 
 Guest Lecture: Sarah Webster, John Harms",,
 8,Feb 23,13,Kotwicki (Markowitz),"International perspective
-Guests & panel discussion: Richard O’Driscoll (NIWA), Olav Rune Godø (IMR Norway - retired), Colm Lordan (ICES, ACOM chair)",,
+Guests & panel discussion: Richard O’Driscoll (NIWA), Olav Rune Godø (IMR Norway - retired), Colm Lordan (ICES, ACOM chair)","Lipsky, A., Silva, A., Gilmour, F., Arjona, Y., Hogan, F., Lloret, J., Bolser, D., Haase, S., Oesterwind, D., ten Brink, T., Roach, M., & Ford, K. (2024). Fisheries independent surveys in a new era of offshore wind energy development. ICES Journal of Marine Science, 82(3). https://doi.org/10.1093/icesjms/fsae060
+
+Liu, Y., Chen, Y., & Cheng, J. (2009). A comparative study of optimization methods and conventional methods for sampling design in fishery-independent surveys. ICES Journal of Marine Science, 66(9), 1873–1882. https://doi.org/10.1093/icesjms/fsp157   
+
+Maureaud, A. A., Frelat, R., Pécuchet, L., Shackell, N., Mérigot, B., Pinsky, M. L., et al. (2021). Are we ready to track climate-driven shifts in marine species across international boundaries? – A global survey of scientific bottom trawl data. Global Change Biology, 27(2), 220–236.",
 8,Feb 25,14,Barnett (Wassermann),"Advanced Technologies. Platforms, technologies and provision of data for stock assessment. 
 Guests & panel discussion: Robert Levine (AFSC), Kresimir Williams (AFSC), Ole Shelton (NWFSC)",,
-9,Mar 2,15,Kotwicki (Markowitz),Future of surveys (Kotwicki),,
+9,Mar 2,15,Kotwicki (Markowitz),Future of surveys (Kotwicki),WKUSER3 report,
 9,Mar 4,16,Barnett (Wassermann),Student Presentations,,
 10,Mar 9,17,Hicks (Markowitz),Student Presentations,,
 10,Mar 11,18,Kotwicki (Wassermann),"Student Presentations
