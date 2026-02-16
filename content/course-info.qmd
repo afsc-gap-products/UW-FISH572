@@ -8,6 +8,8 @@ install.packages("flextable")
 library(flextable)
 install.packages("here")
 library(here)
+install.packages("dplyr")
+library(dplyr)
 ```
 
 ## Lectures Timing
