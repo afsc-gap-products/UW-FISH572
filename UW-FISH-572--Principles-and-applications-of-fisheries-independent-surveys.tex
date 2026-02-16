@@ -91,39 +91,6 @@
 % Set default figure placement to htbp
 \def\fps@figure{htbp}
 \makeatother
-% definitions for citeproc citations
-\NewDocumentCommand\citeproctext{}{}
-\NewDocumentCommand\citeproc{mm}{%
-  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
-\makeatletter
- % allow citations to break across lines
- \let\@cite@ofmt\@firstofone
- % avoid brackets around text for \cite:
- \def\@biblabel#1{}
- \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
-\makeatother
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newlength{\csllabelwidth}
-\setlength{\csllabelwidth}{3em}
-\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
- {\begin{list}{}{%
-  \setlength{\itemindent}{0pt}
-  \setlength{\leftmargin}{0pt}
-  \setlength{\parsep}{0pt}
-  % turn on hanging indent if param 1 is 1
-  \ifodd #1
-   \setlength{\leftmargin}{\cslhangindent}
-   \setlength{\itemindent}{-1\cslhangindent}
-  \fi
-  % set entry spacing
-  \setlength{\itemsep}{#2\baselineskip}}}
- {\end{list}}
-\usepackage{calc}
-\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
-\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
-\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \usepackage{fontspec}
 \usepackage{multirow}
@@ -2027,54 +1994,9 @@ Survey}\label{afsc-grounfish-bottom-trawl-survey}
 \item
   \href{https://afsc-gap-products.github.io/gap_products/}{Data
   Documentation}
-\item
-  Recent Publications: (Hoff, 2016; Markowitz et al., 2024, 2025; Siple
-  et al., 2024; Von Szalay et al., 2023; Zacher et al., 2024).
 \end{itemize}
 
 \phantomsection\label{refs}
-\begin{CSLReferences}{1}{0}
-\bibitem[\citeproctext]{ref-RN979}
-Hoff, G. R. (2016). \emph{Results of the 2016 eastern {Bering Sea} upper
-continental slope survey of groundfishes and invertebrate resources}
-(NOAA Tech. Memo. NOAA-AFSC-339). {U.S. Dep. Commer.}
-\url{https://doi.org/10.7289/V5/TM-AFSC-339}
-
-\bibitem[\citeproctext]{ref-2023NEBS}
-Markowitz, E. H., Dawson, E. J., Wassermann, S., Anderson, C. B., Rohan,
-S. K., Charriere, B. K., and Stevenson, D. E. (2024). \emph{Results of
-the 2023 eastern and northern {Bering Sea} continental shelf bottom
-trawl survey of groundfish and invertebrate fauna} (NOAA Tech. Memo.
-NMFS-AFSC-487; p. 242). {U.S. Dep. Commer.}
-\url{https://doi.org/10.25923/2mry-yx09}
-
-\bibitem[\citeproctext]{ref-2024EBS}
-Markowitz, E. H., Wassermann, S., Rohan, S. K., Charriere, B. K.,
-Anderson, C. B., and Stevenson, D. E. (2025). \emph{Results of the 2024
-eastern and northern {Bering Sea} continental shelf bottom trawl survey
-of groundfish and invertebrate fauna} (NOAA Tech. Memo. NMFS-AFSC-499;
-p. 203). {U.S. Dep. Commer.} \url{https://doi.org/10.25923/8qa3-x785}
-
-\bibitem[\citeproctext]{ref-GOA2023}
-Siple, M. C., Szalay, P. G. von, Raring, N. W., Dowlin, A. N., and
-Riggle, B. C. (2024). \emph{Data report: 2023 gulf of alaska bottom
-trawl survey} (NOAA Tech. Memo. AFSC processed report; 2024-09). {U.S.
-Dep. Commer.} \url{https://doi.org/10.25923/gbb1-x748}
-
-\bibitem[\citeproctext]{ref-AI2022}
-Von Szalay, P. G., Raring, N. W., Siple, M. C., Dowlin, A. N., Riggle,
-B. C., and Laman, E. A. and. (2023). \emph{Data report: 2022 {Aleutian
-Islands} bottom trawl survey} (AFSC Processed Rep. 2023-07; p. 230).
-{U.S. Dep. Commer.} \url{https://doi.org/10.25923/85cy-g225}
-
-\bibitem[\citeproctext]{ref-SAPcrab2024}
-Zacher, L. S., Richar, J. I., Fedewa, E. J., Ryznar, E. R., and Litzow,
-M. A. (2024). \emph{The 2024 eastern {Bering Sea} continental shelf
-trawl survey: Results for commercial crab species} {[}NOAA Tech.
-Memo.{]}. \emph{NFMS-AFSC-491}, 237.
-\url{https://doi.org/10.25923/q0fw-z324}
-
-\end{CSLReferences}
 
 \section{International Pacific Halibut
 Commission}\label{international-pacific-halibut-commission}
@@ -2165,48 +2087,6 @@ works of the Software outside of the United States.
 \markboth{References}{References}
 
 \phantomsection\label{refs}
-\begin{CSLReferences}{1}{0}
-\bibitem[\citeproctext]{ref-RN979}
-Hoff, G. R. (2016). \emph{Results of the 2016 eastern {Bering Sea} upper
-continental slope survey of groundfishes and invertebrate resources}
-(NOAA Tech. Memo. NOAA-AFSC-339). {U.S. Dep. Commer.}
-\url{https://doi.org/10.7289/V5/TM-AFSC-339}
-
-\bibitem[\citeproctext]{ref-2023NEBS}
-Markowitz, E. H., Dawson, E. J., Wassermann, S., Anderson, C. B., Rohan,
-S. K., Charriere, B. K., and Stevenson, D. E. (2024). \emph{Results of
-the 2023 eastern and northern {Bering Sea} continental shelf bottom
-trawl survey of groundfish and invertebrate fauna} (NOAA Tech. Memo.
-NMFS-AFSC-487; p. 242). {U.S. Dep. Commer.}
-\url{https://doi.org/10.25923/2mry-yx09}
-
-\bibitem[\citeproctext]{ref-2024EBS}
-Markowitz, E. H., Wassermann, S., Rohan, S. K., Charriere, B. K.,
-Anderson, C. B., and Stevenson, D. E. (2025). \emph{Results of the 2024
-eastern and northern {Bering Sea} continental shelf bottom trawl survey
-of groundfish and invertebrate fauna} (NOAA Tech. Memo. NMFS-AFSC-499;
-p. 203). {U.S. Dep. Commer.} \url{https://doi.org/10.25923/8qa3-x785}
-
-\bibitem[\citeproctext]{ref-GOA2023}
-Siple, M. C., Szalay, P. G. von, Raring, N. W., Dowlin, A. N., and
-Riggle, B. C. (2024). \emph{Data report: 2023 gulf of alaska bottom
-trawl survey} (NOAA Tech. Memo. AFSC processed report; 2024-09). {U.S.
-Dep. Commer.} \url{https://doi.org/10.25923/gbb1-x748}
-
-\bibitem[\citeproctext]{ref-AI2022}
-Von Szalay, P. G., Raring, N. W., Siple, M. C., Dowlin, A. N., Riggle,
-B. C., and Laman, E. A. and. (2023). \emph{Data report: 2022 {Aleutian
-Islands} bottom trawl survey} (AFSC Processed Rep. 2023-07; p. 230).
-{U.S. Dep. Commer.} \url{https://doi.org/10.25923/85cy-g225}
-
-\bibitem[\citeproctext]{ref-SAPcrab2024}
-Zacher, L. S., Richar, J. I., Fedewa, E. J., Ryznar, E. R., and Litzow,
-M. A. (2024). \emph{The 2024 eastern {Bering Sea} continental shelf
-trawl survey: Results for commercial crab species} {[}NOAA Tech.
-Memo.{]}. \emph{NFMS-AFSC-491}, 237.
-\url{https://doi.org/10.25923/q0fw-z324}
-
-\end{CSLReferences}
 
 
 \backmatter

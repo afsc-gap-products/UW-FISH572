@@ -6,7 +6,8 @@ title: Survey Resources
 
 ```{r source-current-tm}
 # source("https://raw.githubusercontent.com/afsc-gap-products/citations/main/cite/current_data_tm.r") # srvy_cite 
-source("R/current_data_tm.R", local = TRUE)
+# source("R/current_data_tm.R", local = TRUE)
+# <!-- -   Recent Publications: [`r paste0("@", srvy_cite$CITE, collapse = "; ")`].  -->
 
 ```
 
@@ -15,7 +16,6 @@ source("R/current_data_tm.R", local = TRUE)
 -   [All AFSC Research Surveys](https://www.fisheries.noaa.gov/alaska/ecosystems/alaska-fish-research-surveys)
 -   [Publications and Data Reports](https://repository.library.noaa.gov/)
 -   [Data Documentation](https://afsc-gap-products.github.io/gap_products/)
--   Recent Publications: [`r paste0("@", srvy_cite$CITE, collapse = "; ")`]. 
 
 <div id="refs"></div>
 
