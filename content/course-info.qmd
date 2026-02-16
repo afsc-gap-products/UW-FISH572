@@ -6,10 +6,19 @@ title: Course Information
 
 install.packages("flextable")
 library(flextable)
-install.packages("here")
-library(here)
-install.packages("dplyr")
-library(dplyr)
+# install.packages("here")
+# library(here)
+# install.packages("dplyr")
+# library(dplyr)
+
+# Project root
+project_root <- function() {
+  normalizePath(Sys.getenv("QUARTO_PROJECT_ROOT", "."))
+}
+
+proj_path <- function(...) {
+  file.path(project_root(), ...)
+}
 ```
 
 ## Lectures Timing
@@ -120,6 +129,7 @@ data.frame(
 ```{r syllabus-dl, eval = FALSE, include = FALSE}
 library(googledrive)
 library(flextable)
+library(here)
 googledrive::drive_auth()
 2
 
@@ -141,7 +151,7 @@ color_by_category <- function(category_values) {
   return(colors)
 }
 
-tbl <- read.csv(file = here::here("content/syllabus.csv")) 
+tbl <- read.csv(file = proj_path("content/syllabus.csv")) 
 
 tbl[names(tbl) != "Readings0"] |> 
 #  dplyr::select(-Readings0) |> # I dont want to use the dplyr function because it is a MESS for GitHub actions, so here is a quick work around
