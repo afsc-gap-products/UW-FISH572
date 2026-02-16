@@ -39,9 +39,9 @@ jobs:
         id: setup-r
         uses: r-lib/actions/setup-r@v2
 
-      # 4️⃣ Set CRAN mirror (fixes renv installs)
-      - name: Set default CRAN mirror
-        run: Rscript -e 'options(repos = c(CRAN="https://cloud.r-project.org"))'
+      # 4️⃣ Install renv manually with CRAN mirror
+      - name: Install renv manually
+        run: Rscript -e 'install.packages("renv", repos="https://cloud.r-project.org")'
 
       # 5️⃣ Restore renv cache
       - name: Restore renv cache
@@ -50,9 +50,9 @@ jobs:
           path: renv/library
           key: renv-${{ runner.os }}-${{ steps.setup-r.outputs.r-version }}-${{ hashFiles('renv.lock') }}
 
-      # 6️⃣ Restore R packages via renv
-      - name: Restore R packages with renv
-        uses: r-lib/actions/setup-renv@v2
+      # 6️⃣ Restore R packages from renv lockfile
+      - name: Restore R packages
+        run: Rscript -e 'renv::restore()'
 
       # 7️⃣ Set up Quarto
       - name: Set up Quarto
@@ -60,18 +60,11 @@ jobs:
         with:
           tinytex: true
 
-      # # 8️⃣ Optional: install Microsoft core fonts non-interactively (for PDFs)
-      # - name: Install Microsoft core fonts
-      #   run: |
-      #     echo "ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true" | sudo debconf-set-selections
-      #     sudo apt-get install -y ttf-mscorefonts-installer
-      #     sudo fc-cache -f -v
-
-      # 9️⃣ Render the Quarto site
+      # 8️⃣ Render the Quarto site
       - name: Render site
         run: quarto render --no-cache
 
-      # 🔟 Publish to GitHub Pages
+      # 9️⃣ Publish to GitHub Pages
       - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
