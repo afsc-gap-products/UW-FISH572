@@ -8,13 +8,13 @@ Optional:
 - Gunderson (1993). Surveys of fisheries resources.
 - National Research Council 2000. Improving the Collection, Management, and Use of Marine Fisheries Data. https://doi.org/10.17226/9969.
 - Hilborn & Walters (1992). Quantitative fisheries stock assessment: Choice, dynamics and uncertainty. ","Required:
-Wakabayashi, K., R. G. Bakkala, and M. S. Alton. 1985. Methods of the U.S.-Japan demersal trawl surveys, p. 7-29. In R. G. Bakkala and K. Wakabayashi (editors), Results of cooperative U.S.-Japan groundfish investigations in the Bering Sea during May-August 1979. Int. North Pac. Fish. Comm. Bull. 44.
-Rago, P. 2005. Fishery independent sampling: survey techniques and data analysis.   Pp 201-215 in: Musick, J.A. and Bonfil R. (eds): Management techniques for elasmobranch fisheries.  FAO Fisheries technical paper 474: 
+Wakabayashi, K, RG Bakkala, MS Alton. 1985. Methods of the U.S.-Japan demersal trawl surveys, p. 7-29. In Bakkala and Wakabayashi (eds.), Results of cooperative U.S.-Japan groundfish investigations in the Bering Sea during May-August 1979. 
+Rago, P. 2005. Fishery independent sampling: survey techniques and data analysis. pp 201-215 in: Musick and Bonfil (eds): Management techniques for elasmobranch fisheries. FAO Fisheries technical paper 474 
 
 Optional:
-Gunderson, D. R. (1993). Surveys of fisheries resources (p. 248). New York, NY: John Wiley & Sons.
-National Research Council 2000. Improving the Collection, Management, and Use of Marine Fisheries Data. Washington, DC: The National Academies Press. https://doi.org/10.17226/9969.
-Hilborn, R., & Walters, C. J. (1992). Quantitative fisheries stock assessment: Choice, dynamics and uncertainty. London, UK: Chapman and Hall."
+Gunderson, DR. 1993. Surveys of fisheries resources
+National Research Council. 2000. Improving the Collection, Management, and Use of Marine Fisheries Data. https://doi.org/10.17226/9969.
+Hilborn, R, CJ Walters. 1992. Quantitative fisheries stock assessment: Choice, dynamics and uncertainty. "
 1,Jan 7,2,Kotwicki (Markowitz),"Overview of survey data products for ecosystem processes research, ecological studies, stock assessment, and forecasting. 
 Guest Lectures: Kayla Ualesi (IPHC), Ebett Siddon (NOAA)","Required:
 - Lynch, Methot, & Link (eds.). 2018. Implementing a Next Generation Stock Assessment Enterprise. An Update to the NOAA Fisheries Stock Assessment Improvement Plan. 
@@ -36,23 +36,23 @@ Optional:
 - Brodie et al. 2020. Trade‐offs in covariate selection for species distribution models: a methodological comparison. 
 - Carroll et al. 2019. A review of methods for quantifying spatial predator–prey overlap. 
 - Kotwicki & Lauth. 2013. Detecting temporal trends and environmentally‐driven changes in the spatial distribution of ground‐ fishes and crabs on the eastern Bering Sea shelf. https://doi. org/10.1016/j.dsr2.2013.03.017.","Required:
-Lynch, P. D., R. D. Methot, and J. S. Link (eds.). 2018. Implementing a Next Generation Stock Assessment Enterprise. An Update to the NOAA Fisheries Stock Assessment Improvement Plan. U.S. Dep. Commer., NOAA Tech. Memo. NMFS-F/ SPO-183, 127 p. doi: 10.7755/TMSPO.183 – Read parts that refer to the survey data products and use of survey data in assessment
-Cochran, W. G. (1977). Sampling techniques (3rd ed.). New York, NY: Wiley. Pages 89 -149. Feel free to omit proofs. Pay attention to considerations when designing stratified random survey.
-Review webpage: https://apps-afsc.fisheries.noaa.gov/Plan_Team/2022/assessments.htm
+Lynch, PD, RD Methot, JS Link (eds.). 2018. Implementing a Next Generation Stock Assessment Enterprise. An Update to the NOAA Fisheries Stock Assessment Improvement Plan. doi: 10.7755/TMSPO.183 – Read parts that refer to the survey data products and use of survey data in assessment
+Cochran, WG. 1977. Sampling techniques (3rd ed.). New York, NY: Wiley. Pages 89 -149. Feel free to omit proofs. Pay attention to considerations when designing stratified random survey.
+Review webpage: https://www.fisheries.noaa.gov/alaska/population-assessments/north-pacific-groundfish-stock-assessments-and-fishery-evaluation (previously: https://apps-afsc.fisheries.noaa.gov/Plan_Team/2022/assessments.htm)
 
 Skim below to explore differences between design- and model-based estimation:
-Berg, C.W., Nielsen, A. and Kristensen, K., 2014. Evaluation of alternative age-based methods for estimating relative abundance from survey data in relation to assessment models.
-Thorson, J. T., Shelton, A. O., Ward, E. J., & Skaug, H. J. (2015). Geostatistical delta‐generalized linear mixed models improve precision for estimated abundance indices for West Coast groundfishes.
-Thorson, J.T. 2018 Guidance for decisions using the Vector Autoregressive Spatio-Temporal (VAST) package in stock, ecosystem, habitat and climate assessments.
+Berg, C.W., Nielsen, A. and Kristensen, K. 2014. Evaluation of alternative age-based methods for estimating relative abundance from survey data in relation to assessment models.
+Thorson, JT, AO Shelton, EJ Ward & HJ Skaug. 2015. Geostatistical delta‐generalized linear mixed models improve precision for estimated abundance indices for West Coast groundfishes.
+Thorson, J.T. 2018. Guidance for decisions using the Vector Autoregressive Spatio-Temporal (VAST) package in stock, ecosystem, habitat and climate assessments.
 
 Optional:
-Somerton, D. A., Munro, P. T., & Weinberg, K. L. (2007). Whole‐gear efficiency of a benthic survey trawl for flatfish. Fishery Bulletin, 105, 278–291.
-Ailloud, L.E., and Hoenig, J.M. 2019. A general theory of age–length keys: combining the forward and inverse keys to estimate age composition from incomplete data.
-Ono, K., Licandeo, R., Muradian, M.L., Cunningham, C.J., Anderson, S.C., Hurtado-Ferro, F., Johnson, K.F., McGilliard, C.R., Monnahan, C.C., Szuwalski, C.S. and Valero, J.L., 2015. The importance of length and age composition data in statistical age-structured models for marine species.
-Dickson, W. (1993). Estimation of the capture efficiency of trawl gear. I: Development of a theoretical model. Fisheries Research, 16, 239–253. https://doi.org/10.1016/0165‐7836(93)90096‐P
-Brodie, S.J., Thorson, J.T., Carroll, G., Hazen, E.L., Bograd, S., Haltuch, M.A., Holsman, K.K., Kotwicki, S., Samhouri, J.F., Willis‐Norton, E. and Selden, R.L., 2020. Trade‐offs in covariate selection for species distribution models: a methodological comparison. Ecography, 43(1), pp.11-24.
-Carroll, G., Holsman, K.K., Brodie, S., Thorson, J.T., Hazen, E.L., Bograd, S.J., Haltuch, M.A., Kotwicki, S., Samhouri, J., Spencer, P. and Willis‐Norton, E., 2019. A review of methods for quantifying spatial predator–prey overlap. Global Ecology and Biogeography, 28(11), pp.1561-1577.
-Kotwicki, S., & Lauth, R. R. (2013). Detecting temporal trends and environmentally‐driven changes in the spatial distribution of ground‐ fishes and crabs on the eastern Bering Sea shelf. Deep‐Sea Research Part II: Topical Studies in Oceanography, 94, 231–243. https://doi. org/10.1016/j.dsr2.2013.03.017."
+Somerton, DA, PT Munro, KL Weinberg. 2007. Whole‐gear efficiency of a benthic survey trawl for flatfish. 
+Ailloud, LE, JM Hoenig, 2019. A general theory of age–length keys: combining the forward and inverse keys to estimate age composition from incomplete data.
+Ono, K., R Licandeo, ML Muradian, CJ Cunningham, SC Anderson, F Hurtado-Ferro, KF Johnson, CR McGilliard, CC Monnahan, CS Szuwalski, JL Valero. 2015. The importance of length and age composition data in statistical age-structured models for marine species.
+Dickson, W. 1993. Estimation of the capture efficiency of trawl gear. In: Development of a theoretical model. Fisheries Research, 16, 239–253. https://doi.org/10.1016/0165‐7836(93)90096‐P
+Brodie, SJ, JT Thorson, G Carroll, EL Hazen, S Bograd, MA Haltuch, KK Holsman, S Kotwicki, JF Samhouri, E Willis‐Norton, RL Selden. 2020. Trade‐offs in covariate selection for species distribution models: a methodological comparison. 
+Carroll, G., KK Holsman, S Brodie, JT Thorson, EL Hazen, SJ Bograd, MA Haltuch, S Kotwicki, J Samhouri, P Spencer, E Willis‐Norton. 2019. A review of methods for quantifying spatial predator–prey overlap. 
+Kotwicki, S, RR Lauth. 2013. Detecting temporal trends and environmentally‐driven changes in the spatial distribution of ground‐ fishes and crabs on the eastern Bering Sea shelf. https://doi. org/10.1016/j.dsr2.2013.03.017."
 2,Jan 12,3,Hicks (Markowitz),"Design principles, sampling designs, logistics and estimation.  
 Guest presentation. Case study for implementing survey design (Zack Oyafuso).","Optional:
 - Jason Conner, Stan Kotwicki, Kotaro Ono, and Lewis A.K. Barnett. 2025. The sensitivity of fisheries-independent survey indices to decisions of sampling design and intensity and the mitigation of biased precision estimators for systematic sampling. Canadian Journal of Fisheries and Aquatic Sciences. 82: 1-22. https://doi.org/10.1139/cjfas-2024-0405
@@ -65,14 +65,23 @@ https://doi.org/10.1002/9781118162934
 - Oyafuso, Z. S., Barnett, L. A. K., Siple, M. C., & Kotwicki, S. (2022). A flexible approach to optimizing the Gulf of Alaska groundfish bottom trawl survey design for abundance estimation.
 - Oyafuso, Z. S., Barnett, L. A., & Kotwicki, S. (2021). Incorporating spatiotemporal variability in multispecies survey design optimization addresses trade-offs in uncertainty. ICES Journal of Marine Science, 78(4), 1288-1300.
 
-",
+","Optional:
+Conner J, S Kotwicki, K Ono, and LAK Barnett. 2025. The sensitivity of fisheries-independent survey indices to decisions of sampling design and intensity and the mitigation of biased precision estimators for systematic sampling. https://doi.org/10.1139/cjfas-2024-0405
+Cochran, WG. 1977. Sampling Techniques (3rd ed.). 
+Gunderson, DR. 1993. Surveys of Fisheries Resources. 
+Hankin, DG, MS Mohr, KB Newman. 2019. Sampling theory: For the ecological and natural resource sciences. https://doi.org/10.1093/oso/9780198815792.001.0001. 
+Thompson, SK. 2012. Sampling. https://doi.org/10.1002/9781118162934
+Oyafuso, ZS, LAK Barnett, MC Siple, S Kotwicki. 2022. A flexible approach to optimizing the Gulf of Alaska groundfish bottom trawl survey design for abundance estimation.
+Oyafuso, ZS, LAK Barnett, S Kotwicki. 2021. Incorporating spatiotemporal variability in multispecies survey design optimization addresses trade-offs in uncertainty. 
+
+"
 2,Jan 14,4,Barnett (Markowitz),"Student presentations on project plan: 5 minutes presentation, 5-10 minutes for discussion.
 Some general topics
 a. Design of a new survey from the ground up.
 b. Analysis of existing survey data (e.g. present survey data product and its uncertainty, use of survey data in assessments, role of uncertainty in assessment).
 c. Literature review of a survey topic under active research.
 
-Examples of literature overview. Opportunity for students to ask questions about class projects.",Install software for class using this installation guide: https://github.com/afsc-gap-products/UW-FISH572-coursework/blob/main/coursework/simulations/install_model_based_software.pdf,
+Examples of literature overview. Opportunity for students to ask questions about class projects.",Install software for class using this installation guide: https://github.com/afsc-gap-products/UW-FISH572-coursework/blob/main/coursework/simulations/install_model_based_software.pdf,Install software for class using this installation guide: https://github.com/afsc-gap-products/UW-FISH572-coursework/blob/main/coursework/simulations/install_model_based_software.pdf
 3,Jan 19,,Martin Luther King Jr. Observed Holiday,Martin Luther King Jr. Observed Holiday,,
 3,Jan 21,5,Kotwicki (Markowitz),"Overview of current hot topics in survey science: Uncertainty (observation error), Survey continuity (flexibility and catchability), multispecies optimisation, flexible survey design, model-based estimation of survey data products, simulations, statistical tools and new technology. Combining surveys. Absolute indices of abundance (catchability). Changes in technology affect continuity but also improve estimates. Using observation from fishing vessels.
 
@@ -93,22 +102,22 @@ Optional:
 - Kotwicki et al. 2018. Combining data from bottom trawl and acoustic surveys to estimate an index of abundance for semipelagic species. https://doi.org/10.1139/cjfas‐2016‐0362
 - Walline. 2007. Geostatistical simulations of eastern Bering Sea walleye pollock spatial distributions, to estimate sampling precision.
 - Kilfoil et al, 2020. Using unmanned aerial vehicles and machine learning to improve sea cucumber density estimation in shallow habitats. ","Required:
-WGISDAA WKUSER 2022 planning document (on google drive)
-Godø, O. R. (1994). Factors affecting the reliability of groundfish abundance estimates from bottom trawl surveys. In A. Fernö & S. Olsen (Eds.), Marine fish behaviour in capture and abundance estimation (pp. 166–199). Oxford, UK: Fishing New Books.
-O’Leary, C.A., Thorson, J.T., Ianelli, J.N. and Kotwicki, S., 2020. Adapting to climate‐driven distribution shifts using model‐based indices and age composition from multiple surveys in the walleye pollock (Gadus chalcogrammus) stock assessment. Fisheries Oceanography, 29(6), pp.541-557.
-Oyafuso ZS, Barnett LA, Kotwicki S. Incorporating spatiotemporal variability in multispecies survey design optimization addresses trade-offs in uncertainty. ICES Journal of Marine Science. 2021 Aug;78(4):1288-300.
+WGISDAA WKUSER 2022 planning document
+Godø. (1994) Factors affecting the reliability of groundfish abundance estimates from bottom trawl surveys. In Fernö & Olsen (Eds.), Marine fish behaviour in capture and abundance estimation. 
+O’Leary CA, JT Thorson, J Ianelli, S Kotwicki. (2020) Adapting to climate‐driven distribution shifts using model‐based indices and age composition from multiple surveys in the walleye pollock (Gadus chalcogrammus) stock assessment. 
+Oyafuso, ZS, LAK Barnett, S Kotwicki. Incorporating spatiotemporal variability in multispecies survey design optimization addresses trade-offs in uncertainty. 
 
 Skim over:
-ICES. 2020. ICES Workshop on unavoidable survey effort reduction (WKUSER). ICES Scientific Reports. 2:72. 92pp. http://doi.org/10.17895/ices.pub.7453
-ICES. 2023. ICES Workshop on unavoidable survey effort reduction 2 (WKUSER 2). ICES Scientific Reports. (in press)
-Kotwicki, S., Ianelli, J. N., & Punt, A. E. (2014). Correcting density‐dependent effects in abundance estimates from bottom trawl surveys. ICES Journal of Marine Science: Journal Du Conseil, 71, 1107–1116. https:// doi.org/10.1093/icesjms/fst208
+ICES. 2020. ICES Workshop on unavoidable survey effort reduction (WKUSER). http://doi.org/10.17895/ices.pub.7453
+ICES. 2023. ICES Workshop on unavoidable survey effort reduction 2 (WKUSER 2). (in press)
+Kotwicki, S, J Ianelli, A Punt (2014) Correcting density‐dependent effects in abundance estimates from bottom trawl surveys. https:// doi.org/10.1093/icesjms/fst208
 
 Optional:
-Jones, D.T., Rooper, C.N., Wilson, C.D., Spencer, P.D., Hanselman, D.H. and Wilborn, R.E.,  2021. Estimates of availability and catchability for select rockfish species based on acoustic-optic surveys in the Gulf of Alaska. Fisheries Research, 236, p.105848.
-Rooper, C.N., Williams, K., Towler, R.H., Wilborn, R. and Goddard, P., 2020. Estimating habitat-specific abundance and behavior of several groundfishes using stationary stereo still cameras in the southern California Bight. Fisheries Research, 224, p.105443.
-Kotwicki, S., Ressler, P. H., Ianelli, J. N., Punt, A. E., & Horne, J. K. (2018). Combining data from bottom trawl and acoustic surveys to estimate an index of abundance for semipelagic species. Canadian Journal of Fisheries and Aquatic Sciences, 75, 60–71. https://doi.org/10.1139/ cjfas‐2016‐0362
-Walline, P.D., 2007. Geostatistical simulations of eastern Bering Sea walleye pollock spatial distributions, to estimate sampling precision. ICES Journal of Marine Science, 64(3), pp.559-569.
-Kilfoil, J.P., Rodriguez-Pinto, I., Kiszka, J.J., Heithaus, M.R., Zhang, Y., Roa, C.C., Ailloud, L.E., Campbell, M.D. and Wirsing, A.J., 2020. Using unmanned aerial vehicles and machine learning to improve sea cucumber density estimation in shallow habitats. ICES Journal of Marine Science."
+Jones, et al. 2021. Estimates of availability and catchability for select rockfish species based on acoustic-optic surveys in the Gulf of Alaska. 
+Rooper et al. 2020. Estimating habitat-specific abundance and behavior of several groundfishes using stationary stereo still cameras in the southern California Bight. 
+Kotwicki et al. 2018. Combining data from bottom trawl and acoustic surveys to estimate an index of abundance for semipelagic species. https://doi.org/10.1139/cjfas‐2016‐0362
+Walline 2007. Geostatistical simulations of eastern Bering Sea walleye pollock spatial distributions, to estimate sampling precision.
+Kilfoil et al. 2020. Using unmanned aerial vehicles and machine learning to improve sea cucumber density estimation in shallow habitats. "
 4,Jan 26,6,Hicks (Wassermann),"Examples of combining surveys into one platform and/or combining different data types across platforms to improve survey products. Combining acoustic/trawl data. Calibrating a longline survey to trawl survey observations.
 Main topics: changes to survey, calibration, scientific and legal process. 
 Guest Lectures: Ray Webster, Sophia Wassermann",,
@@ -124,7 +133,16 @@ Optional:
 -Maunder, M.N. and Punt, A.E. 2004. Standardizing Catch and Effort Data: A Review of Recent Approaches. Fisheries Research 70(2-3): 141-159. https://www.sciencedirect.com/science/article/abs/pii/S0165783604001638
 -Thorson, J.T. and Haltuch, M.A., 2019. Spatiotemporal analysis of compositional data: increased precision and improved workflow using model-based inputs to stock assessment. Canadian Journal of Fisheries and Aquatic Sciences, 76(3), pp.401-414.
 -Commander CJC, Barnett LAK, Ward EJ, Anderson SC, Essington TE. The shadow model: how and why small choices in spatially explicit species distribution models affect predictions. PeerJ. 2022 Feb 14;10:e12783. doi: 10.7717/peerj.12783.
-",
+","Required: 
+Anderson, SC, EJ Ward, PA English, LAK Barnett. 2022. sdmTMB: an R package for fast, flexible, and user-friendly generalized linear mixed effects models with spatial and spatiotemporal random fields. https://doi.org/10.1101/2022.03.24.485545
+
+Optional:
+Shelton, AO, JT Thorson, EJ Ward, BE Feist. 2014. Spatial semiparametric models improve estimates of species abundance and distribution. 
+Thorson, JT, AO Shelton, EJ Ward, HJ Skaug. 2015. Geostatistical delta-generalized linear mixed models improve precision for estimated abundance indices for West Coast groundfishes. 
+Maunder, MN and AE Punt. 2004. Standardizing Catch and Effort Data: A Review of Recent Approaches. https://www.sciencedirect.com/science/article/abs/pii/S0165783604001638
+Thorson, JT, MA Haltuch. 2019. Spatiotemporal analysis of compositional data: increased precision and improved workflow using model-based inputs to stock assessment.
+Commander CJC, LAK Barnett, EJ Ward, SC Anderson, TE Essington. 2022. The shadow model: how and why small choices in spatially explicit species distribution models affect predictions. doi: 10.7717/peerj.12783.
+"
 5,Feb 4,9,Barnett (Wassermann),Student data simulation and analysis with design- and model-based approaches,,
 6,Feb 9,10,Kotwicki (Markowitz),Student Led Literature Review (20min/10min),,
 6,Feb 11,11,Kotwicki (Wassermann),"Explore total variance of a survey, sources of error, estimation methods, minimizing error, and sampling effort optimization. Survey design planning in a changing environment.","Required reading:
@@ -149,7 +167,21 @@ Shao, J.,1989.The efficiency and consistency of approximations to the jackknife 
 estimators. J.Am. Stat. Assoc. 84,114.
 
 Stewart, I.J. and Hamel, O.S., 2014. Bootstrapping of sample sizes for length-or age-composition data used in stock assessments. Canadian Journal of Fisheries and Aquatic Sciences, 71(4), pp.581-588.
-",
+","Required:
+Kotwicki S, K Ono. 2019. The effect of random and density‐dependent variation in sampling efficiency on variance of abundance estimates from fishery surveys. 
+
+Skim:
+Smith, SJ. 1997. Bootstrap confidence limits for groundfish trawl survey estimates of mean abundance.
+Berg, CW, A Nielsen, K Kristensen. 2014. Evaluation of alternative age-based methods forestimating relative abundance from survey data in relation to assessment models.
+Thorson, JT, AO Shelton, EJ Ward, HJ Skaug. 2015. Geostatistical delta‐generalized linear mixed models improve precision for estimated abundance indices for West Coast groundfishes.
+Thorson, JT. 2019. Guidance for decisions using the Vector Autoregressive Spatio-Temporal (VAST) package in stock, ecosystem, habitat and climate assessments. 
+Francis, CR, RJ Hurst, JA Renwick. 2003. Quantifying annual variation in catchability for commercial and research fishing. 
+
+Optional:
+Taylor Approximation and the Delta Method (wherever)
+Shao, J.1989.The efficiency and consistency of approximations to the jackknife variance  estimators. 
+Stewart, IJ, OS Hamel. 2014. Bootstrapping of sample sizes for length-or age-composition data used in stock assessments. 
+"
 7,Feb 16,,President’s Day Observed Holiday,President’s Day Observed Holiday (Survey Data Analysis due),,
 7,Feb 18,12,Hicks (Markowitz),"Acoustic Techniques for Fishery and Ecosystem Surveys
 Guest Lecture: John Horne (UW/SAFS)
@@ -161,10 +193,12 @@ Guests & panel discussion: Richard O’Driscoll (NIWA), Olav Rune Godø (IMR Nor
 
 Liu, Y., Chen, Y., & Cheng, J. (2009). A comparative study of optimization methods and conventional methods for sampling design in fishery-independent surveys. ICES Journal of Marine Science, 66(9), 1873–1882. https://doi.org/10.1093/icesjms/fsp157   
 
-Maureaud, A. A., Frelat, R., Pécuchet, L., Shackell, N., Mérigot, B., Pinsky, M. L., et al. (2021). Are we ready to track climate-driven shifts in marine species across international boundaries? – A global survey of scientific bottom trawl data. Global Change Biology, 27(2), 220–236.",
+Maureaud, A. A., Frelat, R., Pécuchet, L., Shackell, N., Mérigot, B., Pinsky, M. L., et al. (2021). Are we ready to track climate-driven shifts in marine species across international boundaries? – A global survey of scientific bottom trawl data. Global Change Biology, 27(2), 220–236.","Lipsky, A, A Silva, F Gilmour, Y Arjona., F Hogan, J Lloret, D Bolser, S Haase, D Oesterwind, T ten Brink, M Roach, K Ford. 2024. Fisheries independent surveys in a new era of offshore wind energy development. https://doi.org/10.1093/icesjms/fsae060
+Liu, Y, Y Chen, J Cheng. 2009. A comparative study of optimization methods and conventional methods for sampling design in fishery-independent surveys. https://doi.org/10.1093/icesjms/fsp157   
+Maureaud, AA, R Frelat, R Pécuchet, L Shackell, N, B Mérigot, ML Pinsky et al. 2021. Are we ready to track climate-driven shifts in marine species across international boundaries? – A global survey of scientific bottom trawl data."
 8,Feb 25,14,Barnett (Wassermann),"Advanced Technologies. Platforms, technologies and provision of data for stock assessment. 
 Guests & panel discussion: Robert Levine (AFSC), Kresimir Williams (AFSC), Ole Shelton (NWFSC)",,
-9,Mar 2,15,Kotwicki (Markowitz),Future of surveys (Kotwicki),WKUSER3 report,
+9,Mar 2,15,Kotwicki (Markowitz),Future of surveys (Kotwicki),WKUSER3 report,WKUSER3 report
 9,Mar 4,16,Barnett (Wassermann),Student Presentations,,
 10,Mar 9,17,Hicks (Markowitz),Student Presentations,,
 10,Mar 11,18,Kotwicki (Wassermann),"Student Presentations
