@@ -10,3 +10,12 @@
 /_book/
 
 **/*.quarto_ipynb
+
+# Quarto
+/.quarto/
+/_freeze/
+/_cache/
+*_cache/
+index_cache/
+.qmd_cache/
+.knit_cache/
